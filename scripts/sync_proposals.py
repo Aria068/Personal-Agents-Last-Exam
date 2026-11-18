@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 import re
 import sys
+import time
 from urllib.error import HTTPError
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
@@ -34,6 +35,7 @@ class GitHub:
             raise ValueError("Invalid repository name")
         self.repository = repository
         self.token = token
+        self._last_write = 0.0
 
     def request(self, path, method="GET", data=None):
         if not path.startswith("/") or path.startswith("//"):
@@ -45,6 +47,11 @@ class GitHub:
         if payload is not None:
             headers["Content-Type"] = "application/json"
         request = Request("https://api.github.com" + path, data=payload, headers=headers, method=method)
+        if method not in {"GET", "HEAD"}:
+            # Serialize writes below GitHub's secondary content-creation limit,
+            # especially when backfilling merge checks for many existing PRs.
+            time.sleep(max(0.0, 1.1 - (time.monotonic() - self._last_write)))
+            self._last_write = time.monotonic()
         try:
             with urlopen(request, timeout=30) as response:
                 if response.status == 204:
