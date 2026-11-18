@@ -257,6 +257,7 @@ class LifecycleTests(unittest.TestCase):
         self.assertNotIn("pull_request.head", text)
         self.assertNotIn("npm", text)
         self.assertNotIn("contents: write", text)
+        self.assertIn("pull-requests: write", text)  # PR conversation comments
 
     def test_shared_commit_cannot_borrow_another_prs_success(self):
         api = Mock(repository="example/repo")
