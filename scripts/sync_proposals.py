@@ -210,7 +210,9 @@ def collect(api, domain_names, branch):
         kind = track(summary)
         if kind is None:
             continue
-        pr = api.request(f"/repos/{api.repository}/pulls/{summary['number']}")
+        # The list response already contains these PR fields. Avoid one extra
+        # API request per proposal on every index refresh.
+        pr = summary
         text, path, issue = proposal_text(api, pr, kind)
         named = TITLE.match(pr.get("title", ""))
         title_domains = [x.strip() for x in (named[2] or "").split("+")] if named else []
