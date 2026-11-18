@@ -466,8 +466,10 @@ class Lifecycle:
             payload = {
                 "name": self.rules["gate_name"], "head_sha": head,
                 "external_id": external,
-                "status": "completed" if status == "success" else "in_progress",
-                **({"conclusion": "success"} if status == "success" else {}),
+                # GitHub retains a completed check's old conclusion when only
+                # status is changed. Always replace the conclusion explicitly.
+                "status": "completed",
+                "conclusion": "success" if status == "success" else "action_required",
                 "details_url": f"https://github.com/{self.api.repository}/pull/{number}",
                 "output": {"title": description, "summary": "\n".join(f"PR #{n}: {d}" for n, _, d in rows)}}
             if existing:

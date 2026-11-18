@@ -279,6 +279,26 @@ class LifecycleTests(unittest.TestCase):
         self.assertEqual(status["state"], "pending")
         self.assertIn("#123", status["description"])
 
+    def test_draft_transition_replaces_a_previous_successful_conclusion(self):
+        api = Mock(repository="example/repo")
+        draft = pr(title="Fix documentation", draft=True)
+        api.pages.return_value = [draft]
+        def request(path, method="GET", data=None):
+            if path.endswith("/status"):return {"statuses": []}
+            if "/check-runs?" in path:
+                return {"check_runs": [{"id": 999, "external_id": "pale-contribution-ready:" + HEAD,
+                    "app": {"id": 15368}, "status": "completed", "conclusion": "success"}]}
+            return {}
+        api.request.side_effect = request
+        runner = life.Lifecycle(api, RULES, NOW)
+        context = {"pr": draft, "files": [], "comments": [], "state": initial(),
+                   "comment_id": None, "kind": None, "path": None, "blob": None, "issue": ""}
+        with patch.object(runner, "context", return_value=context):runner.reconcile()
+        update = next(c.args[2] for c in api.request.call_args_list
+                      if len(c.args) >= 2 and c.args[1] == "PATCH" and c.args[0].endswith("/check-runs/999"))
+        self.assertEqual(update["status"], "completed")
+        self.assertEqual(update["conclusion"], "action_required")
+
     def test_plain_approval_creates_only_plan_label_and_never_merges(self):
         api = Mock(repository="example/repo")
         runner = life.Lifecycle(api, RULES, NOW)
