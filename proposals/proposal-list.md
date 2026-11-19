@@ -6,9 +6,26 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 [🏗️ Environment template](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/blob/main/proposals/templates/environment-proposal.md) · [🧪 Task template](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/blob/main/proposals/templates/task-proposal.md) · [📖 Submission guide](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/blob/main/CONTRIBUTING.md#start-with-a-proposal)
 
+## Reviewer distribution
+
+**90 open non-draft proposals · 13 awaiting initial review · 5 drafts.**
+
+| Track | Reviewer | Pending review requests |
+| :--- | :--- | ---: |
+| Environment | [skyve2012](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Askyve2012) | 13 |
+| Environment | [Jasonya](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AJasonya) | 12 |
+| Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 12 |
+| Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 11 |
+| Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 11 |
+| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 18 |
+
+Counts show pending requests, not accepted contributions or lifetime review totals. Submitted reviews leave the pending queue; multiple reviewers on one PR count separately.
+
+New proposals follow the [domain and author routing policy](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/blob/main/docs/review/reviewer-routing.md). Drafts wait for Ready for review, and existing manual assignments are preserved.
+
 ## 🏗️ Environment Track
 
-**42 proposals.**
+**43 proposals.**
 
 | Submitted (UTC) | PR / app or website | Primary domain | Scope and app connections | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -44,6 +61,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 | 2026-11-16 09:57:03 | [#27](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/27) · Crossway, an independently branded synthetic toll account; workflow reference: E-ZPass NY (https://www.e-zpassny.com)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/27/files) | Travel &amp; commuting | Crossway is a resettable prepaid toll account for daily driving, where notice fees escalate on the clock and paying a notice is final and forfeits the right to dispute it.; Mail and Calendar only | Design review | Review requested<br>@Chenngzz |  | [Rohan-Pandey1729](https://github.com/Rohan-Pandey1729) |  |
 | 2026-11-16 09:56:59 | [#26](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/26) · Stoopside, an independently branded synthetic app; workflow reference: Meetup (https://www.meetup.com)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/26/files) | Social &amp; communities | Stoopside is a resettable community-groups app (capped events, audience-scoped posts, sign-up sheets) that records who was shown or sent what, so tasks about who learns what can be checked without a judge.; Mail and Calendar | Design review | Review requested<br>@Chenngzz |  | [Rohan-Pandey1729](https://github.com/Rohan-Pandey1729) |  |
 | 2026-11-16 09:56:54 | [#25](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/25) · Switchback, an independently branded synthetic app; workflow reference: Recreation.gov (https://www.recreation.gov)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/25/files) | Weather &amp; outdoors | Switchback is a resettable campground reservation site with holds, a fee ladder and clock-driven closures, where a booking can check out cleanly and still be wrong for the people going.; Mail and Calendar only; None in the baseline | Design review | Review requested<br>@Jasonya |  | [Rohan-Pandey1729](https://github.com/Rohan-Pandey1729) |  |
+| 2026-11-16 07:53:55 | [#22](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/22) · Beacon, an independently branded synthetic job board; interaction patterns reference LinkedIn Jobs (https://www.linkedi…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/22/files) | Work &amp; business | A resettable job board where a user searches postings that carry level, workplace type, salary, sponsorship language, source and status; saves searches that produce thin daily alert digests inside the app; applies with a chosen resume and … | Design review | Review requested<br>@skyve2012 |  | [ZichenYuan](https://github.com/ZichenYuan) |  |
 | 2026-11-16 07:53:55 | [#22](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/22) · Beacon, an independently branded synthetic job board; interaction patterns reference LinkedIn Jobs (https://www.linkedi…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/22/files) | Work &amp; business | A resettable job board where a user searches postings that carry level, workplace type, salary, sponsorship language, source and status; saves searches that produce thin daily alert digests inside the app; applies with a chosen resume and … | Design review | Review requested<br>@skyve2012 |  | [ZichenYuan](https://github.com/ZichenYuan) |  |
 | 2026-11-16 07:40:51 | [#20](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/20) · Spotify account-plan cancellation, https://support.spotify.com/us/article/cancel-premium/. Subscription Exit is an inde…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/20/files) | Media &amp; entertainment | A small subscription-management app with one fictional service, one individual plan, and one synthetic account per scenario. Three views cover four workflows: (1) read current plan, renewal status, fixed informational renewal amount, perio… | Design review | Review requested<br>@Chenngzz |  | [2018cx](https://github.com/2018cx) |  |
 | 2026-11-16 07:01:01 | [#16](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/16) · CivicDesk, an independently branded synthetic portal for public comments on proposed rules; interaction patterns refere…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/16/files) | Public service &amp; law | A resettable public-comment portal where a user searches proposed rules (dockets) with open, extended or closed comment periods, reads a rule's summary and supporting documents, drafts and submits a comment under their name or anonymously … | Design review | Review requested<br>@Chenngzz |  | [ZichenYuan](https://github.com/ZichenYuan) |  |
