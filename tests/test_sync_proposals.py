@@ -251,6 +251,19 @@ class ProposalSyncTests(unittest.TestCase):
         self.assertEqual(text, "")
         self.assertIn("200 KB", issue)
 
+    def test_workload_counts_only_pending_open_non_draft_requests(self):
+        api = FakeAPI(pr(requested_reviewers=[{"login": "haolun-wu"}]), self.task)
+        active = sync.collect(api, self.domains, "main")[0]
+        records = [active, {**active, "number": 43, "status": "Draft"},
+                   {**active, "number": 44, "status": "Accepted"},
+                   {**active, "number": 45, "status": "Closed"},
+                   {**active, "number": 46, "reviewers": [], "review": "Approved (1)"},
+                   {**active, "number": 47, "reviewers": [], "review": "Awaiting review"}]
+        rendered = sync.render(records, api.repository)
+        self.assertIn("3 open non-draft proposals · 1 awaiting initial review · 1 drafts", rendered)
+        line = next(x for x in rendered.splitlines() if x.startswith("| Task | [haolun-wu]"))
+        self.assertTrue(line.endswith("| 1 |"), line)
+
 
 if __name__ == "__main__":
     unittest.main()

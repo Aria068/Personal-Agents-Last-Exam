@@ -6,7 +6,7 @@
 
 1. Check the [proposal list](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/blob/proposal-index/proposals/proposal-list.md) for related work, then copy the [Environment proposal template](proposals/templates/environment-proposal.md) or [Task proposal template](proposals/templates/task-proposal.md).
 2. Replace the `[Fill in: …]` placeholders, then add the completed design to `proposals/environment/<slug>.md` or `proposals/task/<slug>.md` in your fork. Follow the required/optional labels; explain how any `TBD` decisions will be resolved.
-3. Open a PR against `main`. Use the [PR summary template](proposals/templates/pr-summary.md) to describe the track, stage and proposal, and link the design file. Keep it Draft while writing; request review when ready.
+3. Open a PR against `main`. Use the [PR summary template](proposals/templates/pr-summary.md) to describe the track, stage and proposal, and link the design file. Keep it Draft while writing; mark it Ready for review when ready. A reviewer is assigned automatically by Track and primary domain, preserving same-author continuity and existing manual assignments. See the [reviewer routing policy](docs/review/reviewer-routing.md).
 
 ### 🏷️ Proposal naming
 
