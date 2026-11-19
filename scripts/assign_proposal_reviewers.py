@@ -10,7 +10,6 @@ import os
 from pathlib import Path
 import re
 import sys
-from urllib.parse import quote
 
 try:
     from .sync_proposals import APIError, GitHub, PROPOSAL_PATH, TITLE, decode_file, domains_from_readme, field, labels, track
@@ -84,7 +83,7 @@ class Router:
     def __init__(self, api, rules, branch="main"):
         self.api, self.rules, self.branch = api, rules, branch
         self.base = "/repos/" + api.repository
-        self.meta_cache, self.history_cache, self.access_cache = {}, {}, {}
+        self.meta_cache, self.history_cache = {}, {}
 
     def metadata(self, pr):
         key = (pr["number"], pr["head"]["sha"])
@@ -133,17 +132,6 @@ class Router:
         pool = self.rules["reviewers"][named_track(pr)]
         return bool(history_owners(pr, events, reviews, pool))
 
-    def available(self, reviewer):
-        if reviewer not in self.access_cache:
-            try:
-                self.api.request(f"{self.base}/collaborators/{quote(reviewer, safe='')}")
-                self.access_cache[reviewer] = True
-            except APIError as error:
-                if error.status != 404:
-                    raise
-                self.access_cache[reviewer] = False
-        return self.access_cache[reviewer]
-
     def choose(self, pr, meta, all_prs, loads):
         pool = self.rules["reviewers"][meta["track"]]
         override = self.rules["routing"].get("overrides", {}).get(str(pr["number"]))
@@ -169,10 +157,10 @@ class Router:
         owner = self.rules["routing"]["domain_owners"][meta["track"]][meta["domain"]]
         if owner.casefold() not in meta["authors"]:
             return owner, "Primary-domain owner"
-        eligible = [u for u in pool if u.casefold() not in meta["authors"] and self.available(u)]
+        eligible = [u for u in pool if u.casefold() not in meta["authors"]]
         if not eligible:
             raise ValueError("No non-author reviewer is available in this Track")
-        return min(eligible, key=lambda u: (loads[u], pool.index(u))), "Author conflict: least-loaded eligible reviewer in the same Track"
+        return min(eligible, key=lambda u: (loads[u], pool.index(u))), "Author conflict: least-loaded non-author reviewer in the same Track"
 
     def run(self, apply=False):
         all_prs = list(self.api.pages(f"{self.base}/pulls", state="all", base=self.branch, sort="created", direction="asc"))
@@ -199,14 +187,22 @@ class Router:
                     row.update(reason="Prior review or explicit reviewer change; preserve human routing"); continue
                 reviewer, reason = self.choose(pr, meta, all_prs, loads)
                 row.update(reviewer=reviewer, reason=reason)
-                if not self.available(reviewer):
-                    row.update(status="unavailable", reason="Selected reviewer lacks repository access; no silent substitution"); continue
                 if apply:
                     current = self.api.request(f"{self.base}/pulls/{pr['number']}")
                     if (current["state"] != "open" or current.get("draft") or fingerprint(current) != fingerprint(pr)
                             or self.established(current, refresh=True)):
                         row.update(status="deferred", reason="PR or review assignment changed during routing"); continue
-                    response = self.api.request(f"{self.base}/pulls/{pr['number']}/requested_reviewers", "POST", {"reviewers": [reviewer]})
+                    # Collaborator visibility differs between an owner's PAT and
+                    # GITHUB_TOKEN. The review-request API is authoritative for
+                    # eligibility; a hidden collaborator lookup is not evidence
+                    # that a configured reviewer lacks access.
+                    try:
+                        response = self.api.request(f"{self.base}/pulls/{pr['number']}/requested_reviewers", "POST", {"reviewers": [reviewer]})
+                    except APIError as error:
+                        if error.status != 422:
+                            raise
+                        row.update(status="rejected", reason="GitHub rejected the review request; check reviewer eligibility and PR state. No substitute was selected.")
+                        continue
                     if reviewer not in requested(response):
                         raise RuntimeError("Review request was not confirmed by GitHub")
                     row.update(status="requested", requested_reviewers=requested(response))
@@ -257,6 +253,8 @@ def main():
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as output:
             output.write(report)
+    if any(r["status"] == "rejected" for r in rows):
+        raise RuntimeError("Some review requests were rejected; see the routing summary")
 
 
 if __name__ == "__main__":

@@ -21,9 +21,9 @@ The proposal file's **Primary domain** selects the owner. Secondary domains prov
 2. Apply an explicit maintainer override from the default-branch policy, when present. The paired health-plan and pharmacy proposals #64 and #63 retain their existing Jasonya assignment.
 3. Reuse the reviewer from the most recent earlier proposal by the **same GitHub author, in the same Track and primary domain**. Closed proposals can establish continuity; drafts and explicitly removed reviewers cannot. Different domains remain with their respective owners.
 4. Otherwise, use the domain owner above.
-5. Exclude the PR author and declared coauthors. If the domain owner is an author, use the eligible reviewer with the fewest pending requests within that Track; policy order breaks ties. This is not a general round-robin rebalance.
+5. Exclude the PR author and declared coauthors. If the domain owner is an author, use the remaining configured reviewer with the fewest pending requests within that Track; policy order breaks ties. This is not a general round-robin rebalance.
 
-An unavailable selected reviewer is reported for maintainer attention, without silently substituting someone else. An override that conflicts with authorship also requires a maintainer decision.
+GitHub's review-request endpoint validates the selected reviewer's eligibility. A rejected request is reported for maintainer attention and makes the workflow fail visibly, without silently substituting someone else. An override that conflicts with authorship also requires a maintainer decision. The workflow does not rely on collaborator-list visibility, which can differ between an owner's token and the built-in Actions token.
 
 ## Drafts, corrections and manual control
 

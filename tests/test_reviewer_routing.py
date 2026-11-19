@@ -61,6 +61,8 @@ class FakeAPI:
         if method == "GET": return copy.deepcopy(self.changed.get(n, self.pulls[n]))
         assert method == "POST" and path.endswith("/requested_reviewers"), (path, method)
         self.posts.append((n, data))
+        if set(data["reviewers"]) & self.unavailable:
+            raise APIError(422, "Review request rejected")
         self.pulls[n]["requested_reviewers"] += [{"login": u} for u in data["reviewers"]]
         return copy.deepcopy(self.pulls[n])
 
@@ -184,9 +186,15 @@ class RoutingTests(unittest.TestCase):
         api.text[path] = api.text[path].replace("@haolun-wu", "@haolun-wu, @TianyuCodings, @Yeechin-is-here")
         self.assertEqual(self.run_router(api, True)[0]["status"], "invalid");self.assertFalse(api.posts)
 
-    def test_selected_reviewer_unavailable_is_not_silently_replaced(self):
+    def test_rejected_reviewer_is_not_silently_replaced(self):
         api = FakeAPI([pr()]);api.unavailable.add("haolun-wu")
-        self.assertEqual(self.run_router(api, True)[0]["status"], "unavailable");self.assertFalse(api.posts)
+        self.assertEqual(self.run_router(api, True)[0]["status"], "rejected")
+        self.assertEqual(api.posts, [(1, {"reviewers": ["haolun-wu"]})])
+
+    def test_routing_does_not_require_collaborator_visibility(self):
+        api = FakeAPI([pr()])
+        self.assertEqual(self.run_router(api, True)[0]["status"], "requested")
+        self.assertFalse(any("/collaborators/" in c[0] for c in api.calls))
 
     def test_explicit_paired_app_override_is_retained(self):
         api = FakeAPI([pr(64, kind="environment", domain="Money & insurance")])
