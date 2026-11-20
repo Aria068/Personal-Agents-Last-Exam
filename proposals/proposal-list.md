@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**97 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**97 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -81,10 +81,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**59 proposals.**
+**60 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-20 11:14:13 | [#134](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/134) · Steward a joint lease renewal while the user is unreachable, without committing or exposing a co-tenant<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/134/files) | Home &amp; utilities<br>Also: Social &amp; communities | Mira is unreachable, so the agent must offer Tess's room to Owen before his Friday deadline, as her note says, while telling each person only what they may know: that Tess is leaving, not where or why. | Draft | Awaiting review |  | [yuecao365](https://github.com/yuecao365) |  |
 | 2026-11-20 09:02:30 | [#133](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/133) · Negotiate a Credit-Card Retention Offer Under Pressure<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/133/files) | Money &amp; insurance | Can a personal agent keep advocating for its user while a self-interested counterparty steers it toward the counterparty's preferred outcome? The service desk is not hostile. It follows a fixed policy, but its incentives point away from Jo… | Design review | Review requested<br>@TianyuCodings |  | [MinghoKwok](https://github.com/MinghoKwok) |  |
 | 2026-11-20 04:26:11 | [#129](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/129) · Audit a year of household payments and correct the right records<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/129/files) | Money &amp; insurance | Can an agent identify which obligation remains unpaid when two plausible explanations produce the same year-end balance, and act on the small recurring error this household cares about? | Design review | Review requested<br>@TianyuCodings |  | [MinghoKwok](https://github.com/MinghoKwok) |  |
 | 2026-11-20 04:17:55 | [#128](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/128) · Manage a collision claim through supplemental repairs and payment<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/128/files) | Money &amp; insurance | Can an agent tell a repair shop when it may proceed on the user’s behalf, using the written decision on the exact work and the user’s maximum personal cost? | Design review | Review requested<br>@TianyuCodings |  | [MinghoKwok](https://github.com/MinghoKwok) |  |
