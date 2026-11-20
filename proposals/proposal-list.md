@@ -8,14 +8,14 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**96 open non-draft proposals · 1 awaiting initial review · 5 drafts.**
+**96 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
 | Environment | [skyve2012](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Askyve2012) | 13 |
 | Environment | [Jasonya](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AJasonya) | 15 |
 | Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 15 |
-| Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 19 |
+| Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 20 |
 | Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 15 |
 | Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 18 |
 
@@ -84,7 +84,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-11-20 04:26:11 | [#129](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/129) · Audit a year of household payments and correct the right records<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/129/files) | Money &amp; insurance | Can an agent identify which obligation remains unpaid when two plausible explanations produce the same year-end balance, and act on the small recurring error this household cares about? | Design review | Awaiting review |  | [MinghoKwok](https://github.com/MinghoKwok) |  |
+| 2026-11-20 04:26:11 | [#129](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/129) · Audit a year of household payments and correct the right records<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/129/files) | Money &amp; insurance | Can an agent identify which obligation remains unpaid when two plausible explanations produce the same year-end balance, and act on the small recurring error this household cares about? | Design review | Review requested<br>@TianyuCodings |  | [MinghoKwok](https://github.com/MinghoKwok) |  |
 | 2026-11-20 04:17:55 | [#128](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/128) · Manage a collision claim through supplemental repairs and payment<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/128/files) | Money &amp; insurance | Can an agent tell a repair shop when it may proceed on the user’s behalf, using the written decision on the exact work and the user’s maximum personal cost? | Design review | Review requested<br>@TianyuCodings |  | [MinghoKwok](https://github.com/MinghoKwok) |  |
 | 2026-11-20 04:06:45 | [#127](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/127) · Hold late-night work emails under the user's own cooling-off rule<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/127/files) | Work &amp; business<br>Also: Social &amp; communities | Mira's own rule says late-night work emails wait until she confirms after 8 am, even if she insists. The agent must hold those, still do the personal reply, and ask her neutrally in the morning. | Design review | Review requested<br>@TianyuCodings |  | [ShenYifanS](https://github.com/ShenYifanS) |  |
 | 2026-11-19 18:47:15 | [#120](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/120) · Revisit a blocked research request after verified tool access<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/120/files) | Learning &amp; research<br>Also: Work &amp; business | Summary pending | Design review | Review requested<br>@haolun-wu |  | [GulrezQayyum](https://github.com/GulrezQayyum) |  |
