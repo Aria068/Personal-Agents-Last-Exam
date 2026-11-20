@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**92 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**92 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -25,10 +25,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🏗️ Environment Track
 
-**45 proposals.**
+**46 proposals.**
 
 | Submitted (UTC) | PR / app or website | Primary domain | Scope and app connections | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-20 03:58:20 | [#126](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/126) · Gustline, an independently branded synthetic weather and air-quality service. Public interaction references: U.S. Natio…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/126/files) | Weather &amp; outdoors | Gustline is a resettable weather and air-quality service. Every answer comes from the forecast issued most recently before the run's virtual time. Superseded forecasts and alert revisions stay queryable, and the person's own alert rules fi… | Draft | Awaiting review |  | [Oshikaka](https://github.com/Oshikaka) |  |
 | 2026-11-20 01:22:41 | [#125](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/125) · Ridgeway MVD, an independently branded synthetic online-services portal of a fictional state motor vehicle agency (regi…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/125/files) | Public service &amp; law | Ridgeway MVD is a resettable portal of a fictional state motor vehicle agency, where a renewal, an address change, a notice of sale or an office booking can go through cleanly and still be wrong for this person. One account holder sees the… | Design review | Review requested<br>@Chenngzz |  | [mingyin1](https://github.com/mingyin1) |  |
 | 2026-11-20 01:21:57 | [#124](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/124) · Treefort, an independently branded synthetic family-settings app for a game platform (play-time limits, child requests …<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/124/files) | Games &amp; play<br>Also: Money &amp; insurance | Treefort is a resettable family-settings app for a game platform: guardians set each child's play-time schedule, content ceiling and spending rules, and decide the requests a child sends for more time, a purchase or a title above the ceili… | Design review | Review requested<br>@Chenngzz |  | [mingyin1](https://github.com/mingyin1) |  |
 | 2026-11-20 00:11:35 | [#123](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/123) · Rainshadow, an independently branded synthetic weather app (forecasts, alerts and personal weather watches); workflow r…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/123/files) | Weather &amp; outdoors | Rainshadow is a resettable weather app in which every forecast has a source and an issue time, and every alert is a message that can be updated or cancelled, so the right answer depends on which place and which hours matter to this person.… | Design review | Review requested<br>@Jasonya |  | [mingyin1](https://github.com/mingyin1) |  |
