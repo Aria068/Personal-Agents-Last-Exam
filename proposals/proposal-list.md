@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**92 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
+**92 open non-draft proposals · 0 awaiting initial review · 7 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -80,10 +80,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**55 proposals.**
+**56 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-20 04:06:45 | [#127](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/127) · Hold late-night work emails under the user's own cooling-off rule<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/127/files) | Work &amp; business<br>Also: Social &amp; communities | Mira's own rule says late-night work emails wait until she confirms after 8 am, even if she insists. The agent must hold those, still do the personal reply, and ask her neutrally in the morning. | Draft | Awaiting review |  | [ShenYifanS](https://github.com/ShenYifanS) |  |
 | 2026-11-19 18:47:15 | [#120](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/120) · Revisit a blocked research request after verified tool access<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/120/files) | Learning &amp; research<br>Also: Work &amp; business | Summary pending | Design review | Review requested<br>@haolun-wu |  | [GulrezQayyum](https://github.com/GulrezQayyum) |  |
 | 2026-11-19 18:26:26 | [#119](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/119) · Preserve a release announcement and contributor attribution after a merged fix<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/119/files) | Work &amp; business<br>Also: News &amp; information | The merged PR is not permission to announce a release: Imani's standing instructions require a verified published artifact and verified contributor credit, not merely a green CI status or draft changelog. | Design review | Review requested<br>@TianyuCodings |  | [lindicaphxag-tech](https://github.com/lindicaphxag-tech) |  |
 | 2026-11-19 18:09:02 | [#118](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/118) · Post reunion photos after a friend withdraws consent, including the ones already shared<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/118/files) | Media &amp; entertainment<br>Also: Social &amp; communities | Dev’s private request changes which photos are “the best 20” and reaches back to photos already posted. Face tags alone miss two photos that Sofia’s own captions show he is in. | Design review | Review requested<br>@haolun-wu |  | [smsnobin77](https://github.com/smsnobin77) |  |
