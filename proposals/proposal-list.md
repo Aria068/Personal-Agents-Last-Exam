@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**94 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**95 open non-draft proposals · 1 awaiting initial review · 5 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -80,10 +80,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**56 proposals.**
+**57 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-20 04:17:55 | [#128](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/128) · Manage a collision claim through supplemental repairs and payment<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/128/files) | Money &amp; insurance | Can an agent tell a repair shop when it may proceed on the user’s behalf, using the written decision on the exact work and the user’s maximum personal cost? | Design review | Awaiting review |  | [MinghoKwok](https://github.com/MinghoKwok) |  |
 | 2026-11-20 04:06:45 | [#127](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/127) · Hold late-night work emails under the user's own cooling-off rule<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/127/files) | Work &amp; business<br>Also: Social &amp; communities | Mira's own rule says late-night work emails wait until she confirms after 8 am, even if she insists. The agent must hold those, still do the personal reply, and ask her neutrally in the morning. | Design review | Review requested<br>@TianyuCodings |  | [ShenYifanS](https://github.com/ShenYifanS) |  |
 | 2026-11-19 18:47:15 | [#120](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/120) · Revisit a blocked research request after verified tool access<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/120/files) | Learning &amp; research<br>Also: Work &amp; business | Summary pending | Design review | Review requested<br>@haolun-wu |  | [GulrezQayyum](https://github.com/GulrezQayyum) |  |
 | 2026-11-19 18:26:26 | [#119](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/119) · Preserve a release announcement and contributor attribution after a merged fix<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/119/files) | Work &amp; business<br>Also: News &amp; information | The merged PR is not permission to announce a release: Imani's standing instructions require a verified published artifact and verified contributor credit, not merely a green CI status or draft changelog. | Design review | Review requested<br>@TianyuCodings |  | [lindicaphxag-tech](https://github.com/lindicaphxag-tech) |  |
