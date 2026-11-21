@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**120 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**121 open non-draft proposals · 1 awaiting initial review · 5 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -25,10 +25,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🏗️ Environment Track
 
-**55 proposals.**
+**56 proposals.**
 
 | Submitted (UTC) | PR / app or website | Primary domain | Scope and app connections | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-21 23:47:44 | [#168](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/168) · Postyard, an independently branded synthetic publishing App with a developer blog and a short-post feed. Public interac…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/168/files) | Social &amp; communities<br>Also: Work &amp; business | Postyard is a resettable publishing App where a person's agent writes in public under that person's name: a developer blog with drafts, revisions, scheduling and corrections, and a short-post feed with replies, reposts and followers. Other… | Design review | Awaiting review |  | [suraj-ranganath](https://github.com/suraj-ranganath) |  |
 | 2026-11-21 19:14:35 | [#161](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/161) · Tutorwell, an independently branded synthetic university tutoring and writing centre; workflow reference: WCONLINE appo…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/161/files) | Learning &amp; research | Tutorwell is a resettable tutoring and writing centre for one student, so tasks can test whether an agent books the right help within the centre's rules and acts on the tutor's advice.; Calendar (optional); Milepost (optional) | Design review | Review requested<br>@skyve2012 |  | [LixinTu](https://github.com/LixinTu) |  |
 | 2026-11-21 19:14:26 | [#160](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/160) · Second Draft, an independently branded synthetic writing-revision workspace; workflow reference: Google Docs comments a…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/160/files) | Learning &amp; research | Second Draft is a resettable writing-revision workspace for one student, so tasks can test whether an agent helps the student act on feedback under each course's AI-use rules without writing for them.; Calendar (optional) | Design review | Review requested<br>@skyve2012 |  | [LixinTu](https://github.com/LixinTu) |  |
 | 2026-11-21 09:02:53 | [#150](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/150) · Apple express replacement workflow (https://support.apple.com/products/repair/express-replacement), reference only; syn…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/150/files) | Shopping &amp; groceries | A serial-linked advance replacement and return lifecycle with temporary financial holds. A separate user/IT verification workflow records performed checks and completed actions so a personal agent can coordinate continuity before a device … | Design review | Review requested<br>@Chenngzz |  | [hansontang](https://github.com/hansontang) |  |
