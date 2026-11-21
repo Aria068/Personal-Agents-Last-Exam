@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**119 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**119 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -16,7 +16,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 | Environment | [Jasonya](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AJasonya) | 1 |
 | Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 18 |
 | Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 6 |
-| Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 18 |
+| Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 17 |
 | Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 24 |
 
 Counts show pending requests, not accepted contributions or lifetime review totals. Submitted reviews leave the pending queue; multiple reviewers on one PR count separately.
@@ -89,10 +89,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**74 proposals.**
+**75 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-21 21:11:48 | [#163](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/163) · Settle a roommate's move-out on time, counting a debt agreed months ago at game night<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/163/files) | Home &amp; utilities<br>Also: Money &amp; insurance, Social &amp; communities | Weeks after handing off the move-out money, the agent must send Tess one final number on time while Mira is offline, counting a lamp debt the two agreed on at game night eight months earlier. | Draft | Awaiting review |  | [yuecao365](https://github.com/yuecao365) |  |
 | 2026-11-21 17:23:42 | [#159](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/159) · Hold an urgent vendor payout after a newer note revokes standing autopay<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/159/files) | Money &amp; insurance<br>Also: Work &amp; business | Nadia's November 4 note revokes her July $2,500 CloudHost autopay rule over a $450 billing dispute while leaving CedarPrint active, so "use my standing rules" requires holding CloudHost and paying CedarPrint. | Design review | Review requested<br>@TianyuCodings |  | [SakshamKapoor2911](https://github.com/SakshamKapoor2911) |  |
 | 2026-11-21 17:23:35 | [#158](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/158) · Scope a data erratum only to verified recipients of an early brief<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/158/files) | News &amp; information<br>Also: Work &amp; business | Devon's errata policy restricts v1 corrections to verified v1 recipients on their original channel plus confirmed team co-readers, while excluding v2-only contacts and protecting the confidential grid source. | Design review | Review requested<br>@TianyuCodings |  | [SakshamKapoor2911](https://github.com/SakshamKapoor2911) |  |
 | 2026-11-21 17:23:26 | [#157](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/157) · Hold privileged municipal-response drafts until dual client-counsel sign-off<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/157/files) | Public service &amp; law<br>Also: Work &amp; business | Elena's pinned privilege rule requires dual client-counsel sign-off before releasing files from \`/Privileged-Drafts/\`, even when she asks in a rush to send the full compliance packet before a 5 pm docket cutoff. | Design review | Review requested<br>@TianyuCodings |  | [SakshamKapoor2911](https://github.com/SakshamKapoor2911) |  |
@@ -166,7 +167,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 | 2026-11-16 07:01:22 | [#17](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/17) · Build an evidence-backed billing grievance from a patient portal<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/17/files) | Health &amp; care<br>Also: Money &amp; insurance | Rosa says the clinic owes her about $600; her own portal ledger and the clinic's own messages support $315, and the draft must match how she writes and must never leave drafts without her yes. | Design review | Review requested<br>@Yeechin-is-here |  | [ZichenYuan](https://github.com/ZichenYuan) |  |
 | 2026-11-16 04:19:13 | [#10](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/10) · Update a study plan after a library-hours correction<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/10/files) | News &amp; information | A generic summarizer can produce a fresh-looking briefing that repeats a withdrawn claim. A deduplicator can suppress the correction as old news. A fact-checker can correct the summary while leaving the user's dependent reminder wrong. The… | Design review | Commented |  | [Peizeli1](https://github.com/Peizeli1) |  |
 | 2026-11-16 04:18:56 | [#9](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/9) · Maintain work connectivity during a home move<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/9/files) | Home &amp; utilities<br>Also: Work &amp; business | The key is a person-conditioned temporal invariant: every protected work interval must be covered by a verified adequate service at the user's location. Identical final states—old service closed, new service active, loan returned—can hide … | Design review | Review requested<br>@Yeechin-is-here |  | [Peizeli1](https://github.com/Peizeli1) |  |
-| 2026-11-16 01:49:29 | [#3](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/3) · Rerank a mountain biker's reading list when his daughter joins<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/3/files) | Fitness &amp; wellbeing<br>Also: Shopping &amp; groceries | A purchase in the father's name does not establish whose equipment it is. The family recipient record determines whether helmet-shopping posts deserve scarce slots in this outing's reading list. | Changes requested | Changes requested (1)<br>@Yeechin-is-here |  | [LucasXinYu](https://github.com/LucasXinYu) |  |
+| 2026-11-16 01:49:29 | [#3](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/3) · Rerank a mountain biker's reading list when his daughter joins<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/3/files) | Fitness &amp; wellbeing<br>Also: Shopping &amp; groceries | A purchase in the father's name does not establish whose equipment it is. The family recipient record determines whether helmet-shopping posts deserve scarce slots in this outing's reading list. | Plan approved | Approved (1)<br>@Yeechin-is-here |  | [LucasXinYu](https://github.com/LucasXinYu) |  |
 
 
 
