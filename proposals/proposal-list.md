@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**100 open non-draft proposals · 1 awaiting initial review · 6 drafts.**
+**100 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -17,7 +17,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 | Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 15 |
 | Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 0 |
 | Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 14 |
-| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 18 |
+| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 19 |
 
 Counts show pending requests, not accepted contributions or lifetime review totals. Submitted reviews leave the pending queue; multiple reviewers on one PR count separately.
 
@@ -85,7 +85,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-11-21 02:41:56 | [#142](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/142) · Book a client trip under a saved "cheapest nonstop" rule that her own later words replaced<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/142/files) | Travel &amp; commuting<br>Also: Work &amp; business | Priya's saved rule says "cheapest nonstop", and the cheapest nonstops are turboprops. Six months ago she told her husband "jets only from now on" and never updated the rule. The agent must follow what she said last, not what she saved. | Design review | Awaiting review |  | [wenkai-li](https://github.com/wenkai-li) |  |
+| 2026-11-21 02:41:56 | [#142](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/142) · Book a client trip under a saved "cheapest nonstop" rule that her own later words replaced<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/142/files) | Travel &amp; commuting<br>Also: Work &amp; business | Priya's saved rule says "cheapest nonstop", and the cheapest nonstops are turboprops. Six months ago she told her husband "jets only from now on" and never updated the rule. The agent must follow what she said last, not what she saved. | Design review | Review requested<br>@haolun-wu |  | [wenkai-li](https://github.com/wenkai-li) |  |
 | 2026-11-21 02:41:21 | [#141](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/141) · Keep a moved MRI off the mornings she drives her neighbor to dialysis<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/141/files) | Health &amp; care<br>Also: Social &amp; communities | Ruth's calendar is free on Thursday morning, but that is when she drives Walt to dialysis, a promise made in a text months ago. The MRI moved there while she is unreachable, and it can be changed only until Wednesday. | Design review | Review requested<br>@Yeechin-is-here |  | [wenkai-li](https://github.com/wenkai-li) |  |
 | 2026-11-20 15:48:45 | [#140](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/140) · Quietly fix a leak in a surprise dinner while his wife is reading his phone<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/140/files) | Food &amp; dining<br>Also: Social &amp; communities | Elena borrows the tablet that shows Tomás's email, so the venue's emails will give the dinner away. The agent finds this on a night she reads his phone aloud: it must fix it now and tell him later. | Design review | Review requested<br>@Yeechin-is-here |  | [wenkai-li](https://github.com/wenkai-li) |  |
 | 2026-11-20 11:14:13 | [#134](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/134) · Steward a joint lease renewal while the user is unreachable, without committing or exposing a co-tenant<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/134/files) | Home &amp; utilities<br>Also: Social &amp; communities | Mira is unreachable, so the agent must offer Tess's room to Owen before his Friday deadline, as her note says, while telling each person only what they may know: that Tess is leaving, not where or why. | Draft | Awaiting review |  | [yuecao365](https://github.com/yuecao365) |  |
