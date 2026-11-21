@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**117 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
+**118 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -17,7 +17,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 | Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 18 |
 | Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 6 |
 | Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 18 |
-| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 24 |
+| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 25 |
 
 Counts show pending requests, not accepted contributions or lifetime review totals. Submitted reviews leave the pending queue; multiple reviewers on one PR count separately.
 
@@ -87,7 +87,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**74 proposals.**
+**75 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -142,6 +142,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 | 2026-11-18 07:03:56 | [#71](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/71) · Keep a no-delete, approve-first rule through a 2,400-message inbox cleanup<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/71/files) | Work &amp; business<br>Also: Home &amp; utilities | The rule that matters most is given once, in the first minute, and has to survive dozens of pages of tool output, a scope change, an interruption and a new session. The inbox is built so that the protected mail looks like the junk: \*Lakevi… | Design review | Commented |  | [suraj-ranganath](https://github.com/suraj-ranganath) |  |
 | 2026-11-17 09:00:56 | [#60](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/60) · Keep an alpine day trip feasible when the timetable stops matching the street<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/60/files) | Travel &amp; commuting<br>Also: Weather &amp; outdoors | A timetable can be accurate as a publication and still be insufficient to guide this traveler standing at a particular stop. The agent must reconcile street-level observations with stale service data while remembering what Lin values, what… | Closed | Awaiting review |  | [paralym](https://github.com/paralym) |  |
 | 2026-11-17 09:00:41 | [#59](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/59) · Keep a personal museum audio walk usable after the phone loses signal<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/59/files) | Travel &amp; commuting<br>Also: Learning &amp; research | The decisive action must happen before the user asks from inside a dead zone. This traveler's earlier signal loss, preference for spoken Mandarin, chosen interiors and walking order determine what to prepare. A generic itinerary, accurate … | Closed | Awaiting review |  | [paralym](https://github.com/paralym) |  |
+| 2026-11-17 05:03:55 | [#55](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/55) · Book a points-funded anniversary trip while keeping the points still being earned<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/55/files) | Travel &amp; commuting<br>Also: Money &amp; insurance | Points travel is a puzzle of real program rules, and frontier models know the rules. Our pilot confirmed they pick the right redemption, apply the certificate category limit and get the pooling arithmetic exactly right. What breaks this tr… | Design review | Review requested<br>@haolun-wu |  | [RuihongY](https://github.com/RuihongY) |  |
 | 2026-11-17 05:03:55 | [#55](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/55) · Book a points-funded anniversary trip while keeping the points still being earned<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/55/files) | Travel &amp; commuting<br>Also: Money &amp; insurance | Points travel is a puzzle of real program rules, and frontier models know the rules. Our pilot confirmed they pick the right redemption, apply the certificate category limit and get the pooling arithmetic exactly right. What breaks this tr… | Design review | Review requested<br>@haolun-wu |  | [RuihongY](https://github.com/RuihongY) |  |
 | 2026-11-17 03:57:41 | [#54](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/54) · Keep a vendor email from becoming standing permission for future reports<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/54/files) | Work &amp; business | The user's stable sharing preference, vendor relationship and later exception determine what may be disclosed at different times. The failure of interest is a source claim being condensed into “the user permits this” and later acted on as … | Design review | Commented |  | [Billy1900](https://github.com/Billy1900) |  |
 | 2026-11-17 03:56:58 | [#53](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/53) · Deliver a project packet without letting source documents expand sharing authority<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/53/files) | Work &amp; business | The same client relationship contains legitimate content, a history of collaboration and limits that differ by project. The task asks whether the agent preserves those person-specific limits when apparently helpful external process instruc… | Design review | Commented |  | [Billy1900](https://github.com/Billy1900) |  |
