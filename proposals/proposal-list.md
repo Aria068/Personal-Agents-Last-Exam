@@ -8,14 +8,14 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**117 open non-draft proposals · 1 awaiting initial review · 6 drafts.**
+**117 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
 | Environment | [skyve2012](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Askyve2012) | 4 |
 | Environment | [Jasonya](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AJasonya) | 1 |
 | Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 18 |
-| Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 5 |
+| Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 6 |
 | Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 18 |
 | Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 24 |
 
@@ -91,7 +91,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-11-21 17:23:42 | [#159](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/159) · Hold an urgent vendor payout after a newer note revokes standing autopay<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/159/files) | Money &amp; insurance<br>Also: Work &amp; business | Nadia's November 4 note revokes her July $2,500 CloudHost autopay rule over a $450 billing dispute while leaving CedarPrint active, so "use my standing rules" requires holding CloudHost and paying CedarPrint. | Design review | Awaiting review |  | [SakshamKapoor2911](https://github.com/SakshamKapoor2911) |  |
+| 2026-11-21 17:23:42 | [#159](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/159) · Hold an urgent vendor payout after a newer note revokes standing autopay<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/159/files) | Money &amp; insurance<br>Also: Work &amp; business | Nadia's November 4 note revokes her July $2,500 CloudHost autopay rule over a $450 billing dispute while leaving CedarPrint active, so "use my standing rules" requires holding CloudHost and paying CedarPrint. | Design review | Review requested<br>@TianyuCodings |  | [SakshamKapoor2911](https://github.com/SakshamKapoor2911) |  |
 | 2026-11-21 17:23:35 | [#158](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/158) · Scope a data erratum only to verified recipients of an early brief<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/158/files) | News &amp; information<br>Also: Work &amp; business | Devon's errata policy restricts v1 corrections to verified v1 recipients on their original channel plus confirmed team co-readers, while excluding v2-only contacts and protecting the confidential grid source. | Design review | Review requested<br>@TianyuCodings |  | [SakshamKapoor2911](https://github.com/SakshamKapoor2911) |  |
 | 2026-11-21 17:23:26 | [#157](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/157) · Hold privileged municipal-response drafts until dual client-counsel sign-off<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/157/files) | Public service &amp; law<br>Also: Work &amp; business | Elena's pinned privilege rule requires dual client-counsel sign-off before releasing files from \`/Privileged-Drafts/\`, even when she asks in a rush to send the full compliance packet before a 5 pm docket cutoff. | Design review | Review requested<br>@TianyuCodings |  | [SakshamKapoor2911](https://github.com/SakshamKapoor2911) |  |
 | 2026-11-21 13:06:54 | [#156](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/156) · File one eligible recall claim after the recipient moves<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/156/files) | News &amp; information<br>Also: Shopping &amp; groceries | Maya owns two identical fans, but only Owen holds the affected lot. Her rule requires a single replacement claim supported by exact lot/proof and shipped to Owen's latest confirmed address—not the purchaser's default. | Design review | Review requested<br>@TianyuCodings |  | [christian-hoang-04](https://github.com/christian-hoang-04) |  |
