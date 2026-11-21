@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**111 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
+**111 open non-draft proposals · 0 awaiting initial review · 7 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -87,10 +87,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**68 proposals.**
+**69 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-21 12:35:34 | [#154](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/154) · Keep one-night volunteer cover off the standing rota<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/154/files) | Social &amp; communities | Eli accepted one December shift, not the January rota. Nadia's prior agreement with Priya—and later, Eli's explicit acceptance for one January date—outweigh attendees copied into Calendar events. | Draft | Awaiting review |  | [christian-hoang-04](https://github.com/christian-hoang-04) |  |
 | 2026-11-21 09:03:50 | [#153](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/153) · Finish a phone replacement without losing independent work and banking access<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/153/files) | Shopping &amp; groceries | Eli's old phone is still an authentication dependency. Copied apps do not prove independent access, and erasing the old factor too soon can make the next work shift unreachable. | Design review | Review requested<br>@haolun-wu |  | [hansontang](https://github.com/hansontang) |  |
 | 2026-11-21 09:03:31 | [#152](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/152) · Preserve an assisted interview journey after equipment and service changes<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/152/files) | Travel &amp; commuting | Nia's equipment record is stale, and her budget is stricter than her wallet balance. A confirmed booking is insufficient without assistance matching her current chair and a viable return. | Design review | Review requested<br>@haolun-wu |  | [hansontang](https://github.com/hansontang) |  |
 | 2026-11-21 09:03:18 | [#151](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/151) · Coordinate a corrected scholarly release before a partner becomes unavailable<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/151/files) | Learning &amp; research | Mara's past outlets fit two goals, so her current purpose must be clarified. A PI's scientific approval does not authorize partner disclosure or a changed author order. | Design review | Review requested<br>@haolun-wu |  | [hansontang](https://github.com/hansontang) |  |
