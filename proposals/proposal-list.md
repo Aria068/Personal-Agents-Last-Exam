@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**137 open non-draft proposals · 3 awaiting initial review · 5 drafts.**
+**137 open non-draft proposals · 2 awaiting initial review · 5 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -17,7 +17,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 | Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 21 |
 | Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 8 |
 | Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 17 |
-| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 18 |
+| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 19 |
 
 Counts show pending requests, not accepted contributions or lifetime review totals. Submitted reviews leave the pending queue; multiple reviewers on one PR count separately.
 
@@ -106,7 +106,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-11-22 05:28:09 | [#178](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/178) · Line up fellowship letters around a broken mentor relationship<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/178/files) | Social &amp; communities<br>Also: Learning &amp; research | The right letter writers depend on a private rift. A stale contact card hides that one strong candidate is back in that group, so the agent must join Jun's note with a recent email signature. | Design review | Awaiting review |  | [JeremyJC67](https://github.com/JeremyJC67) |  |
+| 2026-11-22 05:28:09 | [#178](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/178) · Line up fellowship letters around a broken mentor relationship<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/178/files) | Social &amp; communities<br>Also: Learning &amp; research | The right letter writers depend on a private rift. A stale contact card hides that one strong candidate is back in that group, so the agent must join Jun's note with a recent email signature. | Design review | Review requested<br>@haolun-wu |  | [JeremyJC67](https://github.com/JeremyJC67) |  |
 | 2026-11-22 05:28:05 | [#177](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/177) · Set a new-job start date that protects a visa transfer and a retention bonus<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/177/files) | Public service &amp; law<br>Also: Work &amp; business | Kai's start date depends on a bonus letter, a notice rule and an attorney's changing receipt date. Only Jan 25 protects them all, until a later filing delay makes Feb 8 the only safe date. | Design review | Awaiting review |  | [JeremyJC67](https://github.com/JeremyJC67) |  |
 | 2026-11-22 05:28:01 | [#176](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/176) · Send a camera-ready only on approvals that still hold<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/176/files) | Learning &amp; research<br>Also: Work &amp; business | Lian's own rule ties a co-author's OK to the build they saw. A quiet Table 3 change voids it, so "everyone signed off" does not cover the newest build, while a layout-only build keeps its approval. | Design review | Awaiting review |  | [JeremyJC67](https://github.com/JeremyJC67) |  |
 | 2026-11-22 04:58:43 | [#175](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/175) · Preserve a reviewer's blind ratings after a lab meeting reveals model identities<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/175/files) | Learning &amp; research | Ren can keep a rating she locked before seeing an answer's source. The same receipt is unusable if she edited the labelled answer the day before, even when the card has since been renamed. | Design review | Commented |  | [karpning](https://github.com/karpning) |  |
