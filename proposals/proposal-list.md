@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**137 open non-draft proposals · 0 awaiting initial review · 6 drafts.**
+**138 open non-draft proposals · 0 awaiting initial review · 7 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -16,7 +16,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 | Environment | [Jasonya](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AJasonya) | 7 |
 | Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 21 |
 | Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 9 |
-| Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 17 |
+| Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 18 |
 | Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 20 |
 
 Counts show pending requests, not accepted contributions or lifetime review totals. Submitted reviews leave the pending queue; multiple reviewers on one PR count separately.
@@ -102,7 +102,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**80 proposals.**
+**82 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -154,6 +154,8 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 | 2026-11-18 09:13:35 | [#81](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/81) · Plan a return visit around what the traveler actually experienced<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/81/files) | Travel &amp; commuting | Novelty depends on this traveler's completed experiences and the contents of the current program. Neither a list of previously purchased tickets nor a blacklist of visited venues represents that history correctly. The assistant must reconc… | Design review | Review requested<br>@haolun-wu |  | [onepounchman](https://github.com/onepounchman) |  |
 | 2026-11-18 09:13:30 | [#80](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/80) · Book a hotel without mistaking forced stays for preferences<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/80/files) | Travel &amp; commuting | A booking is evidence about taste only in light of the alternatives the user could and did consider. Nora's repeated premium stays and her few freely chosen stays carry different information. The assistant must recover that distinction acr… | Design review | Review requested<br>@haolun-wu |  | [onepounchman](https://github.com/onepounchman) |  |
 | 2026-11-18 09:13:25 | [#79](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/79) · Keep each person's lunch preferences current while ordering for family<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/79/files) | Food &amp; dining | The assistant must keep each person's preferences current while the shared account accumulates orders that reflect different eaters and differently scoped instructions. The June 3 mild meal is correct for Evan that day, yet treating it as … | Design review | Review requested<br>@Yeechin-is-here |  | [onepounchman](https://github.com/onepounchman) |  |
+| 2026-11-18 09:13:25 | [#79](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/79) · Keep each person's lunch preferences current while ordering for family<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/79/files) | Food &amp; dining | The assistant must keep each person's preferences current while the shared account accumulates orders that reflect different eaters and differently scoped instructions. The June 3 mild meal is correct for Evan that day, yet treating it as … | Design review | Review requested<br>@Yeechin-is-here |  | [onepounchman](https://github.com/onepounchman) |  |
+| 2026-11-18 09:00:14 | [#78](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/78) · Free photo storage while preserving the family's valued versions<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/78/files) | Media &amp; entertainment | Visual duplication does not imply that two objects are interchangeable for this family. The relevant equivalence depends on voice content, editing decisions, archive coverage and the user's chosen access location. Keeping the largest file … | Draft | Awaiting review |  | [harris26-G](https://github.com/harris26-G) |  |
 | 2026-11-18 09:00:14 | [#78](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/78) · Free photo storage while preserving the family's valued versions<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/78/files) | Media &amp; entertainment | Visual duplication does not imply that two objects are interchangeable for this family. The relevant equivalence depends on voice content, editing decisions, archive coverage and the user's chosen access location. Keeping the largest file … | Draft | Awaiting review |  | [harris26-G](https://github.com/harris26-G) |  |
 | 2026-11-18 07:49:36 | [#77](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/77) · Screen papers for a review when past decisions fit two different criteria<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/77/files) | Learning &amp; research | Elin's past decisions are fully consistent and still fit two different rules. The agent must notice what her record cannot settle, spend her one answer on the paper that separates the rules, and carry her reason to papers she never saw. | Changes requested | Changes requested (1) |  | [StevenZhang0116](https://github.com/StevenZhang0116) |  |
 | 2026-11-18 07:05:38 | [#75](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/75) · Fill a Thanksgiving grocery week on a $75 agent card without raising the card's own limit<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/75/files) | Shopping &amp; groceries<br>Also: Money &amp; insurance | Grace set the $75 cap to limit spending after Femi's $212 order. When the decline points to the limit page and a code would reach her inbox, her rules say trim, order and ask her. | Design review | Review requested<br>@haolun-wu |  | [suraj-ranganath](https://github.com/suraj-ranganath) |  |
