@@ -12,6 +12,15 @@ on:
   schedule:
     - cron: '19 * * * *'
   workflow_dispatch:
+    inputs:
+      diagnostics_only:
+        description: Read-only inspection of the Actions API quota
+        type: boolean
+        default: false
+      pr_number:
+        description: Optional PR number for a targeted gate refresh
+        type: string
+        default: ''
 
 permissions:
   contents: read
@@ -27,8 +36,9 @@ concurrency:
 jobs:
   lifecycle:
     if: >-
-      github.event_name != 'issue_comment' ||
-      (github.event.issue.pull_request && startsWith(github.event.comment.body, '/'))
+      inputs.diagnostics_only != true &&
+      (github.event_name != 'issue_comment' ||
+      (github.event.issue.pull_request && startsWith(github.event.comment.body, '/')))
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -42,4 +52,55 @@ jobs:
       - name: Process command and refresh merge eligibility
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/proposal_lifecycle.py
+          TARGET_PR: ${{ inputs.pr_number }}
+        run: |
+          if [ -n "$TARGET_PR" ]; then
+            python3 - <<'PYCODE'
+          import os
+          from scripts.proposal_lifecycle import GitHub, Lifecycle, policy
+          number = int(os.environ["TARGET_PR"])
+          if number <= 0:
+              raise ValueError("PR number must be positive")
+          api = GitHub(os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_TOKEN"])
+          Lifecycle(api, policy()).reconcile({number})
+          PYCODE
+          else
+            python3 scripts/proposal_lifecycle.py
+          fi
+  api-diagnostics:
+    if: github.event_name == 'workflow_dispatch' && inputs.diagnostics_only == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Read API quota without printing credentials
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PYCODE'
+          import json, os
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError
+          headers = {"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"],
+                     "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
+          for path in ["/rate_limit", "/repos/" + os.environ["GITHUB_REPOSITORY"]]:
+              request = Request("https://api.github.com" + path, headers=headers)
+              try:
+                  response = urlopen(request, timeout=30)
+              except HTTPError as error:
+                  response = error
+              with response:
+                  payload = json.load(response)
+                  safe = {k: response.headers.get(k) for k in ["X-RateLimit-Limit", "X-RateLimit-Remaining",
+                          "X-RateLimit-Used", "X-RateLimit-Reset", "X-RateLimit-Resource", "Retry-After", "X-GitHub-Request-Id"]}
+                  result = {"path": path, "status": response.status, "headers": safe}
+                  if path == "/rate_limit":
+                      result["core"] = payload.get("resources", {}).get("core")
+                  elif response.status >= 400:
+                      message = str(payload.get("message", "")).lower()
+                      result["rate_limited"] = "rate limit" in message
+                      result["permission_denied"] = "resource not accessible" in message
+                  print(json.dumps(result), flush=True)
+          PYCODE
