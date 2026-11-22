@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**133 open non-draft proposals · 0 awaiting initial review · 8 drafts.**
+**134 open non-draft proposals · 1 awaiting initial review · 8 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -25,10 +25,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🏗️ Environment Track
 
-**67 proposals.**
+**68 proposals.**
 
 | Submitted (UTC) | PR / app or website | Primary domain | Scope and app connections | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-22 11:45:51 | [#184](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/184) · CloverVet, an independently branded synthetic veterinary clinic, pet vaccination ledger, boarding/travel health-clearan…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/184/files) | Health &amp; care<br>Also: Home &amp; utilities | CloverVet is a resettable, independently branded veterinary care, vaccination-compliance, boarding/travel clearance and prescription-refill simulator where a booking or refill can succeed on the surface and still violate a household's or p… | Design review | Awaiting review |  | [Hoyant-Su](https://github.com/Hoyant-Su) |  |
 | 2026-11-22 07:24:47 | [#183](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/183) · Payleaf, an independently branded synthetic employee self-service portal at a fictional employer, seen from one salarie…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/183/files) | Work &amp; business | Payleaf is a resettable employee self-service portal, seen from one salaried employee's account, in which every change waits for a deadline that the person did not choose: a new bank account applies only from the first pay run whose cut-of… | Design review | Review requested<br>@skyve2012 |  | [dipta007](https://github.com/dipta007) |  |
 | 2026-11-22 06:49:56 | [#182](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/182) · Brindle Card, an independently branded synthetic credit card account at a fictional issuer, seen from one cardholder's …<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/182/files) | Money &amp; insurance | Brindle Card is a resettable credit card account, seen from one cardholder's account, in which money that appears on the card is not always money the person keeps: a refund can be partial, the issuer's credit during a dispute is temporary,… | Design review | Review requested<br>@skyve2012 |  | [dipta007](https://github.com/dipta007) |  |
 | 2026-11-22 06:25:05 | [#181](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/181) · Alderbrook Mutual claims, an independently branded synthetic insurer's claims portal seen from one policyholder's accou…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/181/files) | Money &amp; insurance | Alderbrook Mutual claims is a resettable insurer's claims portal, seen from one policyholder's account, in which the insurer decides each repair line in writing, one deductible applies to the whole claim, and every answer has a deadline, s… | Design review | Review requested<br>@skyve2012 |  | [dipta007](https://github.com/dipta007) |  |
