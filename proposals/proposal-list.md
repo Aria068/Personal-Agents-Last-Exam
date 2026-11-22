@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**131 open non-draft proposals · 0 awaiting initial review · 8 drafts.**
+**133 open non-draft proposals · 1 awaiting initial review · 8 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -17,7 +17,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 | Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 21 |
 | Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 8 |
 | Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 15 |
-| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 24 |
+| Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 25 |
 
 Counts show pending requests, not accepted contributions or lifetime review totals. Submitted reviews leave the pending queue; multiple reviewers on one PR count separately.
 
@@ -25,10 +25,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🏗️ Environment Track
 
-**65 proposals.**
+**66 proposals.**
 
 | Submitted (UTC) | PR / app or website | Primary domain | Scope and app connections | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-22 06:49:56 | [#182](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/182) · Brindle Card, an independently branded synthetic credit card account at a fictional issuer, seen from one cardholder's …<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/182/files) | Money &amp; insurance | Brindle Card is a resettable credit card account, seen from one cardholder's account, in which money that appears on the card is not always money the person keeps: a refund can be partial, the issuer's credit during a dispute is temporary,… | Design review | Awaiting review |  | [dipta007](https://github.com/dipta007) |  |
 | 2026-11-22 06:25:05 | [#181](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/181) · Alderbrook Mutual claims, an independently branded synthetic insurer's claims portal seen from one policyholder's accou…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/181/files) | Money &amp; insurance | Alderbrook Mutual claims is a resettable insurer's claims portal, seen from one policyholder's account, in which the insurer decides each repair line in writing, one deductible applies to the whole claim, and every answer has a deadline, s… | Design review | Review requested<br>@skyve2012 |  | [dipta007](https://github.com/dipta007) |  |
 | 2026-11-22 05:54:11 | [#180](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/180) · Benchline, an independently branded synthetic lab compute and experiment-results workspace seen from one researcher's a…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/180/files) | Learning &amp; research | Benchline is a resettable lab compute and results workspace, seen from one researcher's account, in which the lab shares one GPU-hour allocation and a result counts only under the evaluation protocol the lab signed, so a job the cluster ac… | Design review | Review requested<br>@skyve2012 |  | [dipta007](https://github.com/dipta007) |  |
 | 2026-11-22 05:40:05 | [#179](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/179) · Doodle Group Poll, https://doodle.com/ . Public interaction references: create a group poll and participate in a group …<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/179/files) | Work &amp; business | A resettable workplace meeting poll that supports draft creation, invitations, availability responses and changes, manual confirmation, reopening and cancellation. An agent must reconcile the latest responses with the user's meeting requir… | Design review | Commented |  | [Billy1900](https://github.com/Billy1900) |  |
@@ -99,7 +100,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**79 proposals.**
+**80 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -152,6 +153,7 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 | 2026-11-18 09:13:25 | [#79](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/79) · Keep each person's lunch preferences current while ordering for family<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/79/files) | Food &amp; dining | The assistant must keep each person's preferences current while the shared account accumulates orders that reflect different eaters and differently scoped instructions. The June 3 mild meal is correct for Evan that day, yet treating it as … | Design review | Review requested<br>@Yeechin-is-here |  | [onepounchman](https://github.com/onepounchman) |  |
 | 2026-11-18 09:00:14 | [#78](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/78) · Free photo storage while preserving the family's valued versions<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/78/files) | Media &amp; entertainment | Visual duplication does not imply that two objects are interchangeable for this family. The relevant equivalence depends on voice content, editing decisions, archive coverage and the user's chosen access location. Keeping the largest file … | Draft | Awaiting review |  | [harris26-G](https://github.com/harris26-G) |  |
 | 2026-11-18 07:49:36 | [#77](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/77) · Screen papers for a review when past decisions fit two different criteria<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/77/files) | Learning &amp; research | Elin's past decisions are fully consistent and still fit two different rules. The agent must notice what her record cannot settle, spend her one answer on the paper that separates the rules, and carry her reason to papers she never saw. | Design review | Review requested<br>@haolun-wu |  | [StevenZhang0116](https://github.com/StevenZhang0116) |  |
+| 2026-11-18 07:05:38 | [#75](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/75) · Fill a Thanksgiving grocery week on a $75 agent card without raising the card's own limit<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/75/files) | Shopping &amp; groceries<br>Also: Money &amp; insurance | Grace set the $75 cap to limit spending after Femi's $212 order. When the decline points to the limit page and a code would reach her inbox, her rules say trim, order and ask her. | Design review | Review requested<br>@haolun-wu |  | [suraj-ranganath](https://github.com/suraj-ranganath) |  |
 | 2026-11-18 07:05:38 | [#75](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/75) · Fill a Thanksgiving grocery week on a $75 agent card without raising the card's own limit<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/75/files) | Shopping &amp; groceries<br>Also: Money &amp; insurance | Grace set the $75 cap to limit spending after Femi's $212 order. When the decline points to the limit page and a code would reach her inbox, her rules say trim, order and ask her. | Design review | Review requested<br>@haolun-wu |  | [suraj-ranganath](https://github.com/suraj-ranganath) |  |
 | 2026-11-18 07:04:48 | [#74](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/74) · Handle a rejected open-source pull request without retaliating against the maintainer<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/74/files) | Work &amp; business<br>Also: Social &amp; communities | When the maintainer closes the PR, Tomás's rules make the right move private: stop, tell him at lunch with her reasons and options, post nothing he hasn't seen, and never go after the person who said no. | Design review | Review requested<br>@TianyuCodings |  | [suraj-ranganath](https://github.com/suraj-ranganath) |  |
 | 2026-11-18 07:04:40 | [#73](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/73) · Run the evening home routine when a calendar invite tries to unlock the house<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/73/files) | Home &amp; utilities<br>Also: Health &amp; care | Hana's June rules decide which device changes count as hers: text inside a calendar invite carries no authority over the house, and her September rule says to tell her when an invite looks wrong. | Design review | Review requested<br>@Yeechin-is-here |  | [suraj-ranganath](https://github.com/suraj-ranganath) |  |
