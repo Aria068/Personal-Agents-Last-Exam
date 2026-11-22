@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**128 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**128 open non-draft proposals · 0 awaiting initial review · 8 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -96,10 +96,13 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**76 proposals.**
+**79 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-22 05:28:09 | [#178](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/178) · Line up fellowship letters around a broken mentor relationship<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/178/files) | Social &amp; communities<br>Also: Learning &amp; research | The right letter writers depend on a private rift. A stale contact card hides that one strong candidate is back in that group, so the agent must join Jun's note with a recent email signature. | Draft | Awaiting review |  | [JeremyJC67](https://github.com/JeremyJC67) |  |
+| 2026-11-22 05:28:05 | [#177](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/177) · Set a new-job start date that protects a visa transfer and a retention bonus<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/177/files) | Public service &amp; law<br>Also: Work &amp; business | Kai's start date depends on a bonus letter, a notice rule and an attorney's changing receipt date. Only Jan 25 protects them all, until a later filing delay makes Feb 8 the only safe date. | Draft | Awaiting review |  | [JeremyJC67](https://github.com/JeremyJC67) |  |
+| 2026-11-22 05:28:01 | [#176](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/176) · Send a camera-ready only on approvals that still hold<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/176/files) | Learning &amp; research<br>Also: Work &amp; business | Lian's own rule ties a co-author's OK to the build they saw. A quiet Table 3 change voids it, so "everyone signed off" does not cover the newest build, while a layout-only build keeps its approval. | Draft | Awaiting review |  | [JeremyJC67](https://github.com/JeremyJC67) |  |
 | 2026-11-22 04:58:43 | [#175](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/175) · Preserve a reviewer's blind ratings after a lab meeting reveals model identities<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/175/files) | Learning &amp; research | Ren can keep a rating she locked before seeing an answer's source. The same receipt is unusable if she edited the labelled answer the day before, even when the card has since been renamed. | Design review | Commented |  | [karpning](https://github.com/karpning) |  |
 | 2026-11-21 21:11:48 | [#163](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/163) · Settle a roommate's move-out on time, counting two old debts that never reached the ledger<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/163/files) | Home &amp; utilities<br>Also: Money &amp; insurance, Social &amp; communities | Weeks after handing off the move-out money, the agent must send Tess one final number on time while Mira is offline, counting two debts that never reached the house note: a lamp from game night and a concert ticket from April. | Changes requested | Changes requested (1) |  | [yuecao365](https://github.com/yuecao365) |  |
 | 2026-11-21 17:23:42 | [#159](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/159) · Hold an urgent vendor payout after a newer note revokes standing autopay<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/159/files) | Money &amp; insurance<br>Also: Work &amp; business | Nadia's November 4 note revokes her July $2,500 CloudHost autopay rule over a $450 billing dispute while leaving CedarPrint active, so "use my standing rules" requires holding CloudHost and paying CedarPrint. | Design review | Review requested<br>@TianyuCodings |  | [SakshamKapoor2911](https://github.com/SakshamKapoor2911) |  |
