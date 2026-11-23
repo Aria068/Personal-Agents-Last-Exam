@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**160 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**161 open non-draft proposals · 1 awaiting initial review · 5 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -25,10 +25,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🏗️ Environment Track
 
-**84 proposals.**
+**85 proposals.**
 
 | Submitted (UTC) | PR / app or website | Primary domain | Scope and app connections | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-23 22:08:28 | [#209](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/209) · Wirewalk, a synthetic news reader inspired by X (Twitter).<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/209/files) | News &amp; information<br>Also: Social &amp; communities | Wirewalk is a synthetic public feed for following a developing story. An agent can search posts, open a conversation, trace a quote or repost back to its source, inspect an account and save a post privately. A reply from the person or orga… | Design review | Awaiting review |  | [byshail](https://github.com/byshail) |  |
 | 2026-11-23 17:52:27 | [#204](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/204) · GasBuddy (finding stations, finding prices, car profiles, and fuel logs)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/204/files) | Travel &amp; commuting | Build a resettable browser App and MCP business interface for a fictional fuel-price and vehicle-record service. The initial version will support four complete workflows:; Mail 1.3.0 is optional in v1.; None required for v1. Future tasks m… | Design review | Review requested<br>@Chenngzz |  | [weizb18](https://github.com/weizb18) |  |
 | 2026-11-23 17:47:59 | [#203](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/203) · Splitwise (shared-expense overview, getting-started workflow, and public API concepts)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/203/files) | Money &amp; insurance<br>Also: Social &amp; communities | Build a resettable browser App and MCP business interface for a fictional group expense ledger. The initial version will support four complete workflows:; Mail 1.3.0 is optional in v1.; PalePay PR #68 is related but not required. A future … | Design review | Review requested<br>@skyve2012 |  | [weizb18](https://github.com/weizb18) |  |
 | 2026-11-23 17:29:22 | [#202](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/202) · Federal Student Aid (StudentAid.gov: loan repayment plans, repayment calculator, and IDR application information)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/202/files) | Money &amp; insurance | Build a resettable browser App and MCP business interface for one fictional student-loan servicer and borrower dashboard. The initial version will support four complete workflows:; Mail 1.3.0 is optional in v1.; None required for v1. Futur… | Design review | Review requested<br>@skyve2012 |  | [weizb18](https://github.com/weizb18) |  |
