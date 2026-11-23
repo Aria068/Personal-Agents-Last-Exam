@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**157 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**160 open non-draft proposals · 3 awaiting initial review · 5 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -118,10 +118,13 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**83 proposals.**
+**86 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-23 20:55:13 | [#208](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/208) · Get the requested hearing report to the right appointment<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/208/files) | Health &amp; care | Alex uses one portal for two people. “Get my report ready” authorizes delivery for Alex's own clinic request; being able to switch into the sibling's chart grants no permission to use it for this errand. | Design review | Awaiting review |  | [byshail](https://github.com/byshail) |  |
+| 2026-11-23 20:23:53 | [#207](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/207) · Maintain skincare price alerts as personal tolerance changes<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/207/files) | Health &amp; care<br>Also: Shopping &amp; groceries | A cheap skincare offer is relevant only to the formula Riley actually tried and still wants. New personal experience can invalidate a live recommendation, so a later price drop must not revive its paused alert. | Design review | Awaiting review |  | [MdouNU](https://github.com/MdouNU) |  |
+| 2026-11-23 20:21:54 | [#206](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/206) · Help a fitness habit recover after missed sessions, then follow through<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/206/files) | Fitness &amp; wellbeing | Mira's own lapse-recovery agreement determines whether the assistant should repair a stalled fitness plan now or ask and wait. Useful help also remembers to close that loop at the next ordinary check-in. | Design review | Awaiting review |  | [MdouNU](https://github.com/MdouNU) |  |
 | 2026-11-23 19:51:43 | [#205](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/205) · Keep Shiro's care plan current across changing instructions<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/205/files) | Health &amp; care<br>Also: Shopping &amp; groceries; Money &amp; insurance | Alex's own review routine and Shiro's actual care history determine whether nails need attention now. A new bath restriction changes the service combination, while a planned visit never counts as completed care. | Design review | Review requested<br>@Yeechin-is-here |  | [MdouNU](https://github.com/MdouNU) |  |
 | 2026-11-23 09:39:44 | [#201](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/201) · Send a charity runner's pledge form before day 30 while she asks only about her thesis committee<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/201/files) | Fitness &amp; wellbeing<br>Also: Learning &amp; research, Social &amp; communities | Mira re-registered as a Team Northside runner on Feb 1. Last year's guide makes the pledge form due within 30 days or the bib is released; this year's welcome says only "same drill". On day 29 she asks only about her committee. | Changes requested | Changes requested (1) |  | [yuecao365](https://github.com/yuecao365) |  |
 | 2026-11-23 09:13:11 | [#200](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/200) · Hold a dissertation committee copy whose numbers no longer match the run log<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/200/files) | Learning &amp; research | Wen marked v8 as the committee copy, but its Table 5.2 predates her newest run log. Her rules bar sending it or any fix the agent makes, so with Wen offline the agent must ask for the handbook's short delay. | Changes requested | Changes requested (1) |  | [DianJJ](https://github.com/DianJJ) |  |
