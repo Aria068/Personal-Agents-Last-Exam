@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**153 open non-draft proposals · 0 awaiting initial review · 5 drafts.**
+**154 open non-draft proposals · 1 awaiting initial review · 5 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -25,10 +25,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🏗️ Environment Track
 
-**81 proposals.**
+**82 proposals.**
 
 | Submitted (UTC) | PR / app or website | Primary domain | Scope and app connections | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-23 17:29:22 | [#202](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/202) · Federal Student Aid (StudentAid.gov: loan repayment plans, repayment calculator, and IDR application information)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/202/files) | Money &amp; insurance | Build a resettable browser App and MCP business interface for one fictional student-loan servicer and borrower dashboard. The initial version will support four complete workflows:; Mail 1.3.0 is optional in v1.; None required for v1. Futur… | Design review | Awaiting review |  | [weizb18](https://github.com/weizb18) |  |
 | 2026-11-23 07:01:52 | [#199](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/199) · Namecheap (domain registration and management, domain transfers)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/199/files) | Work &amp; business | Build a resettable browser App and MCP business interface for one fictional domain registrar. The initial version will support five complete workflows:; Mail 1.3.0 is optional in v1.; None required for v1. Future tasks may coordinate Nameg… | Plan approved | Approved (1)<br>@skyve2012 | 2026-12-07 14:17:35<br>Awaiting v1 | [weizb18](https://github.com/weizb18) |  |
 | 2026-11-23 06:46:02 | [#198](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/198) · SpotHero (parking search and reservation service)<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/198/files) | Travel &amp; commuting | Build a resettable browser App and MCP business interface for one fictional parking-reservation marketplace. The initial version will support four complete workflows:; Mail 1.3.0 is optional in v1.; None required for v1. Future tasks may c… | Design review | Review requested<br>@Chenngzz |  | [weizb18](https://github.com/weizb18) |  |
 | 2026-11-23 06:04:17 | [#197](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/197) · Hertz (vehicle search and rental overview, rental qualifications) and Enterprise Rent-A-Car (reservation changes and ca…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/197/files) | Travel &amp; commuting<br>Also: None. Payment holds, protection products, refunds, and final charges are supporting parts of the rental workflow rather than a separate Money &amp; insurance workflow in v1. | Build a resettable browser App and MCP business interface for one fictional North American rental-car company. The initial version will support three complete workflows:; - Mail 1.3.0, optional in v1: Pinewheel will publish reservation con… | Design review | Review requested<br>@Chenngzz |  | [weizb18](https://github.com/weizb18) |  |
