@@ -8,13 +8,13 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**184 open non-draft proposals · 0 awaiting initial review · 2 drafts.**
+**186 open non-draft proposals · 0 awaiting initial review · 3 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
-| Environment | [skyve2012](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Askyve2012) | 3 |
+| Environment | [skyve2012](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Askyve2012) | 4 |
 | Environment | [Jasonya](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AJasonya) | 3 |
-| Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 1 |
+| Environment | [Chenngzz](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AChenngzz) | 2 |
 | Task | [TianyuCodings](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3ATianyuCodings) | 3 |
 | Task | [Yeechin-is-here](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3AYeechin-is-here) | 17 |
 | Task | [haolun-wu](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pulls?q=is%3Apr%20is%3Aopen%20review-requested%3Ahaolun-wu) | 11 |
@@ -25,10 +25,13 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🏗️ Environment Track
 
-**98 proposals.**
+**101 proposals.**
 
 | Submitted (UTC) | PR / app or website | Primary domain | Scope and app connections | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-24 19:02:43 | [#235](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/235) · LoopVault is an independently branded synthetic personal-automation and AI skill-evolution studio where one user…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/235/files) | Work &amp; business<br>Also: Learning &amp; research | LoopVault lets a personal agent inspect and iteratively improve a user's personal automation skills (such as inbox triage rules, daily digest filters, expense categorizers, and calendar-conflict guards) under strict recursive… | Draft | Awaiting review |  | [shangliy](https://github.com/shangliy) |  |
+| 2026-11-24 19:02:38 | [#234](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/234) · QuestShelf is an independently branded synthetic cross-platform game library, playtime tracker, and constraint-aware…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/234/files) | Games &amp; play<br>Also: Social &amp; communities | QuestShelf lets a personal agent search a user's cross-platform game library (PC, console, handheld) and broader catalog, inspect both structured metadata (playtime estimates, platform ownership, cross-play support, offline mode… | Design review | Review requested<br>@Chenngzz |  | [shangliy](https://github.com/shangliy) |  |
+| 2026-11-24 19:02:33 | [#233](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/233) · BenchGuide is an independently branded synthetic product-testing publication and personalized buying-guide recommender.…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/233/files) | News &amp; information<br>Also: Shopping &amp; groceries | BenchGuide lets a personal agent search independent lab-tested consumer products, inspect both structured measurements and synthetic lab-test charts (\`ctx.assets\` PNGs such as noise-vs-mode curves, battery decay curves, and thermal plots)… | Design review | Review requested<br>@skyve2012 |  | [shangliy](https://github.com/shangliy) |  |
 | 2026-11-24 08:10:25 | [#230](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/230) · BrightFold is an independently branded, synthetic laundry and dry-cleaning pickup/delivery service. Rinse's public FAQs…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/230/files) | Home &amp; utilities<br>Also: None. Quotes and simulated invoices support the laundry workflow; v1 does not implement a separate banking or payment service. | Build a resettable laundry-service App, seen from one customer's account, with four complete workflows: compare services and obtain quotes; book pickup and return delivery; amend or cancel orders; and follow order progress, delivery… | Design review | Review requested<br>@Jasonya |  | [JunbinLu2000](https://github.com/JunbinLu2000) |  |
 | 2026-11-24 05:20:21 | [#226](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/226) · Kinodex is a fictional film and TV guide used by one person. IMDb is the reference for titles, editions, credits…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/226/files) | Media &amp; entertainment | Kinodex lets a personal agent answer "what should we watch, where, and is it OK for us" from facts about the person rather than from a single streaming service. It sits above the services and plays nothing. Each title has editions… | Plan approved | Commented<br>@Chenngzz | 2026-12-08 07:08:04<br>Awaiting v1 | [byshail](https://github.com/byshail) |  |
 | 2026-11-24 05:08:30 | [#225](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/225) · Ribbonwell, an independently branded synthetic wish-list and gift-exchange service seen from one member's account…<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/225/files) | Social &amp; communities<br>Also: Shopping &amp; groceries | Ribbonwell is a resettable wish-list account that one person shares with a family group and a friends group. Its defining rule is that information is split by who is looking: everybody except the list owner can see who has reserved or… | Design review | Commented |  | [smsnobin77](https://github.com/smsnobin77) |  |
