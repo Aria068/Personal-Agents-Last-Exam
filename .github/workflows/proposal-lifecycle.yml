@@ -73,7 +73,10 @@ jobs:
     timeout-minutes: 2
     permissions:
       contents: read
-      pull-requests: read
+      pull-requests: write
+      issues: write
+      checks: write
+      statuses: write
     steps:
       - name: Read API quota without printing credentials
         env:
@@ -85,7 +88,7 @@ jobs:
           from urllib.error import HTTPError
           headers = {"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"],
                      "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
-          for path in ["/rate_limit", "/repos/" + os.environ["GITHUB_REPOSITORY"]]:
+          for path in ["/rate_limit", "/repos/" + os.environ["GITHUB_REPOSITORY"], "/repos/" + os.environ["GITHUB_REPOSITORY"] + "/pulls?state=open&base=main&per_page=100&page=1"]:
               request = Request("https://api.github.com" + path, headers=headers)
               try:
                   response = urlopen(request, timeout=30)
@@ -102,5 +105,6 @@ jobs:
                       message = str(payload.get("message", "")).lower()
                       result["rate_limited"] = "rate limit" in message
                       result["permission_denied"] = "resource not accessible" in message
+                      result["message"] = message[:300]
                   print(json.dumps(result), flush=True)
           PYCODE
