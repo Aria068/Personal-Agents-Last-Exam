@@ -8,7 +8,7 @@ Automatically synchronized from proposal PRs, their proposal files, reviews and 
 
 ## Reviewer distribution
 
-**186 open non-draft proposals · 0 awaiting initial review · 3 drafts.**
+**186 open non-draft proposals · 0 awaiting initial review · 4 drafts.**
 
 | Track | Reviewer | Pending review requests |
 | :--- | :--- | ---: |
@@ -135,10 +135,11 @@ New proposals follow the [domain and author routing policy](https://github.com/M
 
 ## 🧪 Task Track
 
-**94 proposals.**
+**95 proposals.**
 
 | Submitted (UTC) | PR / task title | Primary domain | Personalization insight | Progress | Review / reviewer | Environment v1 deadline (UTC) | Author | Merged (UTC) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-24 21:44:35 | [#237](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/237) · Contain a studio account incident without disrupting a client handoff<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/237/files) | Work &amp; business | Jordan's runbook authorizes removal of verified unfamiliar access but requires preserving the familiar laptop session for a client handoff; a blanket lockout would be a security failure too. | Draft | Awaiting review |  | [XinyiXiang](https://github.com/XinyiXiang) |  |
 | 2026-11-24 06:01:37 | [#229](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/229) · Finish a child's piano corner from the child's trials rather than the parent's purchase history<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/229/files) | Shopping &amp; groceries<br>Also: Learning &amp; research | The expensive piano in Adrian's receipts was a gift, and Sam's praise was about appearance. Blind trial notes identify the preferred action; a same-family stock substitution quietly changes that action before the return cutoff. | Design review | Review requested<br>@haolun-wu |  | [XuanmiaoG](https://github.com/XuanmiaoG) |  |
 | 2026-11-24 06:01:22 | [#228](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/228) · Lower a retiree's phone bill without turning a familiar kitchen phone into an app<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/228/files) | Home &amp; utilities<br>Also: Money &amp; insurance | Evelyn enjoys her tablet but wants her kitchen calling routine preserved. A same-name cheaper plan loses its phone jack mid-switch, while her daughter's earlier one-off help is mistaken for ongoing authority. | Design review | Review requested<br>@Yeechin-is-here |  | [XuanmiaoG](https://github.com/XuanmiaoG) |  |
 | 2026-11-24 06:01:06 | [#227](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/227) · Keep an apprentice's paid bridge into training when the easy shift swap stops fitting<br>[View changes](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/227/files) | Work &amp; business<br>Also: Learning &amp; research | Morgan's extra-shift history reflects temporary necessity. A newer training-first preference changes which offers to accept; the agent must secure the replacement lab before undoing an otherwise useful shift trade. | Design review | Review requested<br>@TianyuCodings |  | [XuanmiaoG](https://github.com/XuanmiaoG) |  |
