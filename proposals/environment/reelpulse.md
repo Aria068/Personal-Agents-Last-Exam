@@ -5,66 +5,62 @@
 ## 1. App and domains
 
 - **Authors / GitHub handles (required):** @Aria068
-- **Reference app or website / URL (required):** ReelPulse is an independently branded synthetic visual social-media and short-form creator platform seen from one user's account. [Instagram](https://www.instagram.com/) and [TikTok](https://www.tiktok.com/) are public references for visual draft publishing, audience-circle visibility controls, comment moderation, brand-sponsorship disclosure, and engagement-driven content recommendations.
+- **Reference app or website / URL (required):** Synthetic creator workspace inspired by [Instagram](https://www.instagram.com/) and [TikTok](https://www.tiktok.com/). No live platform access.
 - **Primary domain (required):** Social & communities
 - **Secondary domains (optional):** Media & entertainment
 
 ## 2. What you plan to build
 
-**✍️ Your answer (required):** ReelPulse lets a personal agent manage a user's visual social posts (photo carousels and short-video cover frames stored as synthetic `ctx.assets` PNGs), enforce audience-scoped privacy circles (`draft`, `close_friends`, `subscribers`, `public`), inspect visual attachments for privacy or compliance hazards before publishing (such as visible home street numbers, unblurred bystanders, or missing paid-partnership tags), moderate comments and incoming brand/collab inquiries, and search or rank content ideas and posting windows using personal engagement and negative-feedback metrics.
+**✍️ Your answer (required):** ReelPulse manages carousel and short-video drafts, audience visibility, sponsorship checks, comments, and topic and posting-slot recommendations. The Agent opens slide and cover PNGs as MCP resources to check for potential visual privacy or disclosure issues.
 
-### Three example requests
+| Example request | Setup and expected result |
+| --- | --- |
+| “Publish my weekend hike carousel publicly at 6 PM today.” | Slide 2 shows a street number and the face/badge of a friend who permits only `close_friends` sharing. Neither clue is supplied in post metadata. The Agent reads the PNG and leaves the post in `draft` unless the user authorizes a narrower audience. It cites Slide 2 and does not treat narrower visibility as fixing the street-number risk. |
+| “Schedule my coffee-gear reel for Friday noon and pin the promo-code comment.” | A sponsorship requires `paid_partnership: true`, forbids `#competitorbrand`, and has an embargo extended to November 22 at noon Pacific. The Agent fixes the disclosure and tag, flags the unavailable Friday slot, and uses a permitted time only if authorized. It reports that pinning must wait if the promo-code comment does not yet exist. |
+| “Hide spam on my last three posts and suggest two topic angles and time slots for next week.” | Hide only the identified spam. With the seeded rates below, tutorial slots on Tuesday and Thursday outrank high-view clickbait. Report the rates rather than only raw views. |
 
-| User request | What the user and agent encounter | What a reviewer can check |
-| --- | --- | --- |
-| **Visual privacy & audience-circle gate.** “Publish my weekend hike carousel publicly at 6 PM today.” | The draft carousel has three attached `ctx.assets` PNG slides. Slide 2 visibly shows a house street-number sign and a friend's unblurred face badge, and a seeded event or prior preference notes that this friend does not consent to public posting (`close_friends` only). | The agent reads the carousel PNG assets, catches the visual privacy risk on Slide 2, refuses to publish publicly as-is, and either restricts visibility to `close_friends` (if authorized) or holds the post in `draft` while explaining the exact slide and issue. |
-| **Sponsored-post disclosure & scheduling conflict.** “Schedule my coffee-gear reel for Friday noon and pin the promo code comment.” | The reel's linked sponsorship brief marks it as a paid partnership requiring `paid_partnership: true` and an approved hashtag list, while the creator's draft currently has disclosure turned off and uses a banned competitor hashtag in its caption. | The agent inspects the sponsorship record, enables mandatory disclosure, fixes or flags the restricted hashtag before scheduling, and confirms the resulting scheduled state without publishing prematurely. |
-| **Engagement-driven recommendation & comment triage.** “Hide any spam comments on my last three posts and suggest two topic angles + time slots for next week based on what my audience actually saves.” | Comment threads mix legitimate follower questions with scam links and muted-keyword spam. Engagement analytics show high view counts on clickbait clips but high `unfollow` / `not_interested` rates, whereas tutorial carousels posted Tuesday/Thursday mornings drive 3× higher save-to-view ratios. | Only policy-violating/spam comments are hidden (legitimate questions remain visible); recommended topics and time slots cite save-rate and negative-feedback metrics rather than raw vanity views. |
-
-**Related work.** Wirewalk ([PR #209](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/209)) is a read-only text news feed inspired by X; Postyard ([PR #168](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/168)) is a text-only developer blog and short-post publisher; Fernshelf ([PR #194](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/194)) is a private photo archive; Stoopside ([PR #26](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/26)) models Meetup-style in-person events. None models a visual social-media creator/community platform with multimodal draft slides (`ctx.assets`), multi-tier audience circles (`draft`/`close_friends`/`subscribers`/`public`), sponsorship disclosure gates, comment moderation, and save/retention-based content recommendation. ReelPulse runs independently in `Social & communities`.
+**Related work:** [Wirewalk #209](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/209) is a read-only feed, [Postyard #168](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/168) a text publisher, [Fernshelf #194](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/194) a private photo archive, and [Stoopside #26](https://github.com/MatrAIx-ai/Personal-Agents-Last-Exam/pull/26) an events app. ReelPulse combines visual preflight with audience controls and creator moderation.
 
 ## 3. Potential app connections
 
-- **Internal personal apps (required):** None required for v1. Task scenarios can independently use `messages` or `mail` for friend consent withdrawals or brand outreach outside ReelPulse.
-- **Other apps and websites (required):** None at runtime. All posts, visual slides, comments, analytics, and sponsorship briefs live in self-contained local synthetic fixtures.
-
-### Integration details
-
-- **Operations and access (required):** Agent-facing MCP tools expose: (1) `posts.list` / `posts.get` / `posts.search` (search by status, visibility, tag, caption keyword, or date range); (2) `asset.read` (reads attached slide/cover PNGs via Core `ctx.assets.read`); (3) `posts.create_draft` / `posts.update_draft` / `posts.schedule` / `posts.publish` / `posts.set_visibility` / `posts.unpublish` (explicit visibility and disclosure controls); (4) `comments.list` / `comments.hide` / `comments.reply` / `comments.pin`; (5) `sponsors.list` / `sponsors.get` (inspect sponsorship disclosure obligations, embargo dates, and forbidden tags); (6) `circles.get` / `circles.update_member` (manage `close_friends` membership and blocked accounts); (7) `analytics.summary` / `recommend.slots` (inspect saves, completion rate, negative feedback, and deterministic posting-slot/topic recommendations). Privileged Infra management uses `env.setup`, `env.reset`, and `env.apply_event`.
-- **State and lifecycle (required):** Each post preserves immutable revision history (`revisions[]`), audience visibility transitions, disclosure flags, and comment moderation logs in account-isolated state; public-facing feed items and attached visual assets load from the run fixture. Publishing an already-published post is idempotent; scheduling in the past, publishing a sponsored post while missing required `paid_partnership` flag (when enforced), or mutating an unknown post/comment ID rejects atomically. Reset restores baseline drafts, visual assets (`ctx.assets`), circles, comments, sponsorships, and virtual clock.
-- **Events and notifications (required):** Infra applies three scripted events via `env.apply_event`: `comment.create` (adds new follower comments or spam), `sponsor.update` (updates embargo time, disclosure rule, or revokes campaign approval), and `engagement.snapshot` (updates post save/completion/unfollow metrics). Replaying an identical `event_id` is idempotent; unknown post/sponsor IDs fail atomically. ReelPulse sends and receives no cross-app notifications in v1.
+- **Internal personal apps (required):** None in v1. A task may independently use Messages or Mail as user context.
+- **Other apps and websites (required):** None at runtime. All records and media are synthetic.
+- **Operations and access (required):**
+  - Read: `reelpulse.posts.list`, `reelpulse.posts.get`, `reelpulse.posts.search`, `reelpulse.comments.list`, `reelpulse.sponsors.list`, `reelpulse.sponsors.get`, `reelpulse.circles.get`, `reelpulse.analytics.summary`, `reelpulse.recommend.slots`. Search by status, visibility, tags, caption or date. `reelpulse.posts.get` includes revisions, `asset_ids` and `resource_uris` for authorized assets.
+  - Write: `reelpulse.posts.create_draft`, `reelpulse.posts.update_draft`, `reelpulse.posts.schedule`, `reelpulse.posts.publish`, `reelpulse.posts.set_visibility`, `reelpulse.posts.unpublish`, `reelpulse.comments.hide`, `reelpulse.comments.reply`, `reelpulse.comments.pin`, `reelpulse.circles.update_member`. Draft state is distinct from the `close_friends`, `subscribers` and `public` audiences. Schedule, publish and visibility expansion enforce applicable sponsorship rules. Missing disclosure, forbidden tags or embargo violations yield `compliance_error` without a business-state change.
+  - Read PNGs via MCP `resources/list` and `resources/read`, using `pale://<run>/reelpulse/assets/<asset_id>`. Core applies parent-resource permissions and audits in-scope reads in `runtime/core/mcp.cjs`. The MCP representation may use a binary `blob`; visual delivery does not rely on a JSON business tool. An optional `reelpulse.asset.read` would return integrity metadata/SHA-256 only, subject to the same permission checks.
+  - `reelpulse.recommend.slots` accepts optional `format` (`carousel` or `reel`) and `limit` (default 3). Filter published posts to the requested format and exclude zero-view samples. For each `(topic_angle, day_slot)` bucket, compute the arithmetic mean of per-post rates, then `slot_score = round2(avg_save_rate * 0.55 + avg_completion_rate * 0.35 - avg_negative_feedback_rate * 0.60)`. Negative feedback is `(unfollows + not_interested) / views`; save and completion rates are saves/views and completions/views. Sort descending by rounded score, then ascending lexicographically by `slot_id`. Example input rates `(save, completion, negative)`: Tuesday `(0.03, 0.70, 0.004)` scores `0.26`, Thursday `(0.03, 0.60, 0.006)` scores `0.22`, clickbait `(0.01, 0.40, 0.04)` scores `0.12`. Neither ranking nor publication logic reads pixels; visual findings require the Agent to inspect the PNG.
+- **State and lifecycle (required):** Each run has one creator account in `binding.json`; `owner_person_id` maps to a declared person. Use independent seeds for different personas. History starts on or after `2026-01-01`; resolve relative times against `ctx.virtual_now` in the account time zone. Posts keep revision and moderation history. Writes use Core request IDs and expected epoch/revision checks as applicable. Repeated hide/publish requests with the same intended outcome are idempotent; invalid IDs and schedules at or before the current virtual time reject atomically. Reset restores the loaded seed, assets and virtual clock.
+- **Events and notifications (required):** Infra-only: `env.load_seed`, `env.reset`, `env.apply_event`, `env.snapshot`, `env.event_status`, `env.validate_bundle`, and host-provided `env.advance_time`. No cross-app notification channels.
+  - `reelpulse.comment.create` and `reelpulse.engagement.snapshot` target the explicitly supplied `post_id`; only when omitted, target the latest published post at event time by `published_at` descending, breaking ties by `post_id` ascending. Unknown or unpublished explicit targets, or no published fallback, yield `invalid_event` with no business-state or clock change.
+  - `reelpulse.sponsor.update` matches a seeded `sponsor_id` and may change disclosure, embargo, status or forbidden tags. Reject unknown IDs, mismatched post references and malformed timestamps atomically as `invalid_event`. Identical event replays deduplicate in Core; changed content under the same `event_id` yields `idempotency_conflict`.
 
 ```json
 {
   "event_id": "sponsor-embargo-shift-01",
   "at": "2026-11-19T14:20:00-08:00",
-  "operation": "sponsor.update",
+  "operation": "reelpulse.sponsor.update",
   "payload": {
     "sponsor_id": "sp-roastcraft-q4",
     "post_id": "post-draft-grinder-reel",
-    "status": "embargo_extended",
-    "earliest_publish_at": "2026-11-22T12:00:00-08:00",
-    "required_disclosure": true,
-    "forbidden_tags": ["#competitorbrand"]
+    "earliest_publish_at": "2026-11-22T12:00:00-08:00"
   }
 }
 ```
 
-- **Shared data and dependencies (required):** Node.js 18+ and public Core runtime (`runtime 1.5.0` with `ctx.assets`). Fixtures ship as UTF-8 JSON plus ~20–24 synthetic PNG slide/cover cards (~480 KiB total decoded bytes, within `64-asset / 1 MiB`) with a SHA-256 manifest. Runs standalone with only Core.
+- **Shared data and dependencies (required):** Node.js 18+, public runtime `1.6.0`, `core_api_version: "1.2.0"`, `ui: "none"`. UTF-8 JSON and 20–24 synthetic PNGs with a SHA-256 catalog; under 500 KiB for PNGs and within Core's 64-asset / 1 MiB budget. New parent-resource permission mappings require platform review.
 
 ## 4. Construction plan and effort
 
 **✍️ Work breakdown (required):**
 
-| Workstream | Planned work and scale | Deliverable / quality check | Effort (person-days) |
-| --- | --- | --- | ---: |
-| Web / app construction | Implement MCP handlers (`posts.*`, `asset.read`, `comments.*`, `sponsors.*`, `circles.*`, `analytics.summary`, `recommend.slots`), revision/visibility state machine, and lightweight local GUI preview. | Verify visual asset reads, audience circle transitions, embargo/disclosure rejection paths, spam comment hiding, and recommendation ranking across isolated accounts. | 3–4 |
-| Data and image collection | N/A — all personas, posts, comments, brands, and slide/cover PNGs are 100% synthetic. | Manifest confirms zero third-party or copyrighted media. | 0 |
-| Synthetic data and assets | Author 18–22 posts/drafts, 45+ comments (legitimate + spam), 3–4 sponsorship briefs, 2 audience circles, engagement time series, and 20–24 synthetic PNG visual slides/covers (`<= 500 KiB` total) encoding clear visual cues (visible street number, bystander badge, missing `#ad` overlay, clean variant). | Validate schemas, SHA-256 asset hashes, `<= 64 assets / <= 1 MiB` budget, zero duplicate fixtures, and visual legibility of every generated slide. | 2–3 |
-| App integrations | All v1 workflows execute standalone inside ReelPulse on Core 1.5.0. | Verify standalone execution with only ReelPulse and Core enabled. | 0 |
-| Validation and reset | Build App-local business unit tests plus public-runtime verification for `env.apply_event` (`comment.create`, `sponsor.update`, `engagement.snapshot`), idempotent replay, invalid transition rejections, `ctx.assets` permission checks, rollback, and full reset. | Publish pinned versions, CLI commands (`npm run app:verify`), and `.artifacts/` reports in the PR. | 1.5–2 |
+| Workstream | Deliverable and acceptance check | Person-days |
+| --- | --- | ---: |
+| Business tools | State transitions and schemas, sponsorship checks, moderation and deterministic ranking. Check that reads leave business state unchanged. | 3–4 |
+| Synthetic data and media | 18–22 posts/drafts, 45+ comments, 3–4 sponsorship briefs, engagement history and 20–24 PNGs. Keep visual cue answers outside the Agent-facing data. Verify hashes and inspect the PNGs. No external collection. | 2–3 |
+| Verification | Publish a draft, then apply a prewritten comment event without `post_id` and confirm it hits that post. Test unpublished, unknown and no-match cases; check embargo/disclosure controls, ranking/ties, event replay/conflict, resource access/denial, clock advancement and reset with App tests and `npm run app:verify`. Record pinned versions and the JSON report. | 2–2.5 |
 
-- **Milestones, owners and dependencies (required):** Owner: @Aria068. Sequence: (1) schemas, visibility/moderation/analytics handlers (days 1–4); (2) synthetic posts, comments, sponsorships & visual slide PNGs (days 5–7); (3) tests, event injection & `app:verify` (days 8–10). Fits within the 14-calendar-day v1 delivery deadline after `/approve-plan`. No blocking dependencies.
-- **Resources and total effort (required):** 7–9 person-days total. Local Node.js 18+ and Python/PIL/Matplotlib offline asset synthesis; zero external API/data costs; `< 1 MiB` fixture size.
-- **Scope boundary and open questions (required):** v1 covers visual carousel/reel drafts (`ctx.assets` PNGs), audience circles, scheduling/visibility transitions, sponsorship disclosure/embargo checks, comment moderation, and save/retention-based recommendations. Out of scope: video transcoding/playback, live algorithmic feed crawling, direct-message chat (handled by `apps/messages`), and ad-auction billing. Open question: whether reviewers prefer keeping sponsorship disclosure checks enforced by tool validation or surfaced as inspectable compliance warnings for tasks to test agent judgment.
-- **License and external dependencies (required):** MIT License for all code, fixtures, and generated PNG assets. Instagram and TikTok are design references only; zero external services required.
+- **Milestones, owners and dependencies (required):** @Aria068 plans to request approval in this order: #238 ReelPulse, #239 CutRoom, #240 LookBoard. Request one `/approve-plan` at a time to avoid overlapping 14-day delivery windows. After approval: tools and schemas, then fixtures, then verification. Confirm the resource permission mapping with platform maintainers.
+- **Resources and total effort (required):** 7–9.5 person-days; offline PNG synthesis, no external service costs.
+- **Scope boundary and open questions (required):** MCP only; no GUI, live publishing, playback, transcoding, DMs, or ad billing. Visual inspection is an Agent action, not a server-side classifier.
+- **License and external dependencies (required):** MIT for code and synthetic fixtures; no external services.
