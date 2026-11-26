@@ -1,0 +1,1329 @@
+{
+  "schema_version": "pale.asset-catalog.v1",
+  "catalog_id": "cutroom-history-assets",
+  "app_id": "cutroom",
+  "dataset_ref": "dataset.json",
+  "assets": [
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "thumb-a",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep14"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/thumb-a.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 7895,
+        "sha256": "253ee6e41917e9c15807996318462f19d9d046275b8e0705952e7b94d363ff44"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "thumb-b",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep14"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/thumb-b.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8891,
+        "sha256": "5021d1e21bdce67d2addfc9422aaba16de3c77b667bbbda5f885385a7dc19b29"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "thumb-c",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep14"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/thumb-c.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 9146,
+        "sha256": "6c895c12d15b76a8366fc46c37ef6e2f9da66286dd12ea0fe68b5b18afafd906"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "keyframe-0845",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep14"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/keyframe-0845.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 11049,
+        "sha256": "d952eaf2319eb94908c324fc0c899134b276cd0110ce753996bd4160e16d8e92"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Review keyframe"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep15-thumb-a",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep15"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep15-thumb-a.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8124,
+        "sha256": "bf90f934b7f75b1a5c4407acce84e475f60ac6ebe9a327f1f1d5e08c6b6f79ff"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep15-thumb-b",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep15"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep15-thumb-b.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8260,
+        "sha256": "39f2a7fc9509688247b671f8d56b20077bb2d0b80b9050b6755889422866ac21"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep15-thumb-c",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep15"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep15-thumb-c.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8548,
+        "sha256": "c38209d1a517f97446fc4c675f6317bf74a7e9718ee85d26d61ba6ea3ffb9b67"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep15-keyframe",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep15"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep15-keyframe.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8728,
+        "sha256": "2ba1ee4f11b14ad9e89c671c4ea07d5b706a6b6cb3374b01d2741308972e456d"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Review keyframe"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep16-thumb-a",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep16"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep16-thumb-a.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 6824,
+        "sha256": "6d1425b2c7e27caf922a099b6b752ecf4e05edccbdc27cc1aa6f28524b0d91dc"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep16-thumb-b",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep16"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep16-thumb-b.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 6822,
+        "sha256": "9a1c4a78d2a3ad36b23bf7d6ac2c1e6304b985fb7e2a02905c7b04009ae0302c"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep16-thumb-c",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep16"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep16-thumb-c.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 7071,
+        "sha256": "8839b543a23a4533639e40d03b4154e3658c5329583ae643cbdda578a9737657"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep16-keyframe",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep16"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep16-keyframe.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 7227,
+        "sha256": "bf825cfad20cf7447d3f002f1f949c1c22c6d43d56e34ac30d910f5dc4865769"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Review keyframe"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep17-thumb-a",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep17"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep17-thumb-a.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 7490,
+        "sha256": "d7997523de0d232d5385514e643f14336a387ce059dd30b3221dc40d0a53a23e"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep17-thumb-b",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep17"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep17-thumb-b.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 7743,
+        "sha256": "b7fdec88f86adcedc2ba199da54ac2d5d23d495f7219aa41f296eebfff4f56f4"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep17-thumb-c",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep17"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep17-thumb-c.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 7974,
+        "sha256": "58bf1b8b2848bf14d18530322b0b91f9e3319b5094a9012736f0838c31c37e2e"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep17-keyframe",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep17"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep17-keyframe.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8155,
+        "sha256": "dee165d8d783b5e0ea6af9ac3a08f06999618243e59365e68a5b0d22bd19501a"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Review keyframe"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep18-thumb-a",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep18"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep18-thumb-a.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8168,
+        "sha256": "7a4076039f986f7dc12ed7b25f1da44eac00d279aff8f1d5cae2c9e162a11f5f"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep18-thumb-b",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep18"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep18-thumb-b.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8296,
+        "sha256": "e8a162ef9cbd319adef0e21339ff01364e988fa7380771d2e240a57f950da2e3"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep18-thumb-c",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep18"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep18-thumb-c.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8492,
+        "sha256": "8db7cdaa22c307238482f341728aab9cc02eaa588302ee8f9348fbb185642865"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep18-keyframe",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep18"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep18-keyframe.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8671,
+        "sha256": "612c4d4e7f7693a18ca64ec9b21d732735c83e0dd7ca2718aa8e27d2d43bf2e9"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Review keyframe"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep19-thumb-a",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep19"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep19-thumb-a.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 7741,
+        "sha256": "a42b78b1d95cbf1ee571cc02d15560f22c52f9e5467d66a17d5e4328a9d5b7c0"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep19-thumb-b",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep19"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep19-thumb-b.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8326,
+        "sha256": "75089c4302f5cd680527b156864594fed52ef3ae2b8bef8543fa84816885dff8"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep19-thumb-c",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep19"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep19-thumb-c.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8508,
+        "sha256": "927e26bdd19e5aff5232d4af9b02b291f4f908609ccc9b10af75b4b8f360f2f9"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Thumbnail candidate"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    },
+    {
+      "schema_version": "pale.asset-descriptor.v1",
+      "asset_id": "ep19-keyframe",
+      "scope": {
+        "level": "package",
+        "app_id": "cutroom"
+      },
+      "roles": [
+        "content.inline"
+      ],
+      "subjects": [
+        {
+          "app_id": "cutroom",
+          "account_id": "cutroom-studio",
+          "object_type": "project",
+          "object_id": "ep19"
+        }
+      ],
+      "mime_type": "image/png",
+      "availability": {
+        "status": "ready"
+      },
+      "storage": {
+        "adapter": "storage.file",
+        "path": "assets/ep19-keyframe.png",
+        "packaging": "bundled"
+      },
+      "integrity": {
+        "bytes": 8689,
+        "sha256": "8a0bdd80fba66468a21ff4acbd34b86d39ec291c5f6a422dd6a2ae2fc16cf8c0"
+      },
+      "provenance": {
+        "dataset_id": "cutroom-history",
+        "source_ids": [
+          "synthetic"
+        ]
+      },
+      "publication": "public",
+      "access": {
+        "audience": [
+          "agent"
+        ],
+        "rule": "parent_object"
+      },
+      "presentation": {
+        "alt_text": "Review keyframe"
+      },
+      "media": {
+        "image": {
+          "width": 480,
+          "height": 270
+        }
+      },
+      "extensions": []
+    }
+  ],
+  "extensions": []
+}

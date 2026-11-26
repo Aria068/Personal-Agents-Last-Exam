@@ -1,0 +1,3964 @@
+{
+  "account_id": "cutroom-studio",
+  "owner_person_id": "person-editor",
+  "timezone": "America/Los_Angeles",
+  "projects": [
+    {
+      "id": "ep-2025-01a",
+      "title": "Mechanical keyboard teardown",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-01-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-synth-12",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-01-05T17:00:00Z",
+              "resolved_at": "2025-01-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-01-06T18:00:00Z",
+              "resolved_at": "2025-01-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-01-05T19:00:00Z",
+              "resolved_at": "2025-01-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-01-06T20:00:00Z",
+              "resolved_at": "2025-01-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-01b",
+      "title": "Budget mic shootout",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-01-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-01-19T17:00:00Z",
+              "resolved_at": "2025-01-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-01-19T17:00:00Z",
+              "resolved_at": "2025-01-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-01-20T18:00:00Z",
+              "resolved_at": "2025-01-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-01-19T19:00:00Z",
+              "resolved_at": "2025-01-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-02a",
+      "title": "Home office cable cleanup",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-02-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-02-05T17:00:00Z",
+              "resolved_at": "2025-02-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-02-05T17:00:00Z",
+              "resolved_at": "2025-02-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-02-06T18:00:00Z",
+              "resolved_at": "2025-02-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-02-05T19:00:00Z",
+              "resolved_at": "2025-02-09T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-02a",
+          "history": [
+            {
+              "at": "2025-02-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-02b",
+      "title": "Travel tripod review",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-02-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-02-19T17:00:00Z",
+              "resolved_at": "2025-02-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-02-20T18:00:00Z",
+              "resolved_at": "2025-02-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-02-19T19:00:00Z",
+              "resolved_at": "2025-02-23T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-02-20T20:00:00Z",
+              "resolved_at": "2025-02-24T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-02b",
+          "history": [
+            {
+              "at": "2025-02-17T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-03a",
+      "title": "Phone gimbal basics",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-03-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h04",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-03-05T17:00:00Z",
+              "resolved_at": "2025-03-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-03-06T18:00:00Z",
+              "resolved_at": "2025-03-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-03-05T19:00:00Z",
+              "resolved_at": "2025-03-09T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-03b",
+      "title": "Winter light on a budget",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-03-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-03-19T17:00:00Z",
+              "resolved_at": "2025-03-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-03-19T17:00:00Z",
+              "resolved_at": "2025-03-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-03-20T18:00:00Z",
+              "resolved_at": "2025-03-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-03-19T19:00:00Z",
+              "resolved_at": "2025-03-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-03b",
+          "history": [
+            {
+              "at": "2025-03-17T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-04a",
+      "title": "Monitor calibration",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-04-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-04-05T17:00:00Z",
+              "resolved_at": "2025-04-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-04-05T17:00:00Z",
+              "resolved_at": "2025-04-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-04-06T18:00:00Z",
+              "resolved_at": "2025-04-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-04b",
+      "title": "Sound panels on rentals",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-04-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-04-19T17:00:00Z",
+              "resolved_at": "2025-04-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-04-19T17:00:00Z",
+              "resolved_at": "2025-04-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-04-20T18:00:00Z",
+              "resolved_at": "2025-04-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-04-19T19:00:00Z",
+              "resolved_at": "2025-04-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-05a",
+      "title": "One-bag travel kit",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-05-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-05-05T17:00:00Z",
+              "resolved_at": "2025-05-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-05-06T18:00:00Z",
+              "resolved_at": "2025-05-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-05a",
+          "history": [
+            {
+              "at": "2025-05-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-05b",
+      "title": "SSD backup routine",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2025-05-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h06",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-05-19T17:00:00Z",
+              "resolved_at": "2025-05-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-05-20T18:00:00Z",
+              "resolved_at": "2025-05-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-05-19T19:00:00Z",
+              "resolved_at": "2025-05-23T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-05-20T20:00:00Z",
+              "resolved_at": "2025-05-24T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-06a",
+      "title": "Editing on a train",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2025-06-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-06-05T17:00:00Z",
+              "resolved_at": "2025-06-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-06-05T17:00:00Z",
+              "resolved_at": "2025-06-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-06-06T18:00:00Z",
+              "resolved_at": "2025-06-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-06-05T19:00:00Z",
+              "resolved_at": "2025-06-09T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-06a",
+          "history": [
+            {
+              "at": "2025-06-02T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            },
+            {
+              "at": "2025-06-08T19:30:00Z",
+              "status": "withdrawn",
+              "reason": "Guest asked to blur a whiteboard."
+            },
+            {
+              "at": "2025-06-11T18:00:00Z",
+              "status": "signed",
+              "reason": "Re-signed after the blur was added."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-06b",
+      "title": "Color matching two cameras",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2025-06-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h05",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-06-19T17:00:00Z",
+              "resolved_at": "2025-06-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-06-19T17:00:00Z",
+              "resolved_at": "2025-06-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-06-20T18:00:00Z",
+              "resolved_at": "2025-06-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-06-19T19:00:00Z",
+              "resolved_at": "2025-06-23T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-06-20T20:00:00Z",
+              "resolved_at": "2025-06-24T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-07a",
+      "title": "Studio desk tour",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-07-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-07-05T17:00:00Z",
+              "resolved_at": "2025-07-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-07-05T17:00:00Z",
+              "resolved_at": "2025-07-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-07-06T18:00:00Z",
+              "resolved_at": "2025-07-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-07-05T19:00:00Z",
+              "resolved_at": "2025-07-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-07-06T20:00:00Z",
+              "resolved_at": "2025-07-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-07b",
+      "title": "Field recorder test",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2025-07-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h04",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-07-19T17:00:00Z",
+              "resolved_at": "2025-07-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-07-20T18:00:00Z",
+              "resolved_at": "2025-07-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-07-19T19:00:00Z",
+              "resolved_at": "2025-07-23T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-07-20T20:00:00Z",
+              "resolved_at": "2025-07-24T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-07b",
+          "history": [
+            {
+              "at": "2025-07-17T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-08a",
+      "title": "USB-C hub roundup",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-08-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-08-05T17:00:00Z",
+              "resolved_at": "2025-08-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-08-05T17:00:00Z",
+              "resolved_at": "2025-08-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-08-06T18:00:00Z",
+              "resolved_at": "2025-08-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-08-05T19:00:00Z",
+              "resolved_at": "2025-08-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-08-06T20:00:00Z",
+              "resolved_at": "2025-08-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-08b",
+      "title": "Writing a video outline",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-08-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h06",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-08-19T17:00:00Z",
+              "resolved_at": "2025-08-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-08-19T17:00:00Z",
+              "resolved_at": "2025-08-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-08-20T18:00:00Z",
+              "resolved_at": "2025-08-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-08-19T19:00:00Z",
+              "resolved_at": "2025-08-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-08b",
+          "history": [
+            {
+              "at": "2025-08-17T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-09a",
+      "title": "Lens cleaning kit",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-09-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-09-05T17:00:00Z",
+              "resolved_at": "2025-09-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-09-06T18:00:00Z",
+              "resolved_at": "2025-09-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-09a",
+          "history": [
+            {
+              "at": "2025-09-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-09b",
+      "title": "Night street b-roll",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-09-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-09-19T17:00:00Z",
+              "resolved_at": "2025-09-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-09-19T17:00:00Z",
+              "resolved_at": "2025-09-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-09-20T18:00:00Z",
+              "resolved_at": "2025-09-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-09-19T19:00:00Z",
+              "resolved_at": "2025-09-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-10a",
+      "title": "Editing laptop thermals",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-10-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h02",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-10-05T17:00:00Z",
+              "resolved_at": "2025-10-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-10-05T17:00:00Z",
+              "resolved_at": "2025-10-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-10-06T18:00:00Z",
+              "resolved_at": "2025-10-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-10-05T19:00:00Z",
+              "resolved_at": "2025-10-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-10-06T20:00:00Z",
+              "resolved_at": "2025-10-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-10a",
+          "history": [
+            {
+              "at": "2025-10-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-10b",
+      "title": "Studio plant care",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-10-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-10-19T17:00:00Z",
+              "resolved_at": "2025-10-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-10-19T17:00:00Z",
+              "resolved_at": "2025-10-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2025-10-20T18:00:00Z",
+              "resolved_at": "2025-10-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-10-19T19:00:00Z",
+              "resolved_at": "2025-10-23T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-10-20T20:00:00Z",
+              "resolved_at": "2025-10-24T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-10b",
+          "history": [
+            {
+              "at": "2025-10-17T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            },
+            {
+              "at": "2025-11-03T21:00:00Z",
+              "status": "withdrawn",
+              "reason": "Guest changed employers and withdrew consent."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-11a",
+      "title": "Webcam vs camera",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2025-11-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h05",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-11-05T17:00:00Z",
+              "resolved_at": "2025-11-16T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-11-06T18:00:00Z",
+              "resolved_at": "2025-11-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-11-05T19:00:00Z",
+              "resolved_at": "2025-11-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-11-06T20:00:00Z",
+              "resolved_at": "2025-11-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": [
+        {
+          "actor": "person-editor",
+          "at": "2025-11-13T18:00:00Z",
+          "reason": "Time-sensitive launch; caption fix shipped after release.",
+          "intended_transition": {
+            "visibility": "public",
+            "scheduled_at": null
+          },
+          "blockers": [
+            {
+              "code": "unresolved_note",
+              "target_id": "n1",
+              "message": "09:02 End card links are outdated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ep-2025-11b",
+      "title": "Scripting a sponsor read",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2025-11-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-11-19T17:00:00Z",
+              "resolved_at": "2025-11-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-11-19T17:00:00Z",
+              "resolved_at": "2025-11-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-11-20T18:00:00Z",
+              "resolved_at": "2025-11-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-11-19T19:00:00Z",
+              "resolved_at": "2025-11-23T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-11-20T20:00:00Z",
+              "resolved_at": "2025-11-24T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2025-11b",
+          "history": [
+            {
+              "at": "2025-11-17T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-12a",
+      "title": "Archive drive labels",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2025-12-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h05",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-12-05T17:00:00Z",
+              "resolved_at": "2025-12-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2025-12-05T17:00:00Z",
+              "resolved_at": "2025-12-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2025-12-06T18:00:00Z",
+              "resolved_at": "2025-12-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2025-12b",
+      "title": "LED panel comparison",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2025-12-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2025-12-19T17:00:00Z",
+              "resolved_at": "2025-12-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2025-12-20T18:00:00Z",
+              "resolved_at": "2025-12-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2025-12-19T19:00:00Z",
+              "resolved_at": "2025-12-23T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2025-12-20T20:00:00Z",
+              "resolved_at": "2025-12-24T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-01a",
+      "title": "Audio interface setup",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-01-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h08",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-01-05T17:00:00Z",
+              "resolved_at": "2026-01-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-01-05T17:00:00Z",
+              "resolved_at": "2026-01-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-01-06T18:00:00Z",
+              "resolved_at": "2026-01-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-01-05T19:00:00Z",
+              "resolved_at": "2026-01-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-01-06T20:00:00Z",
+              "resolved_at": "2026-01-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-01b",
+      "title": "Shooting product close-ups",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-01-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h08",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-01-19T17:00:00Z",
+              "resolved_at": "2026-01-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-01-19T17:00:00Z",
+              "resolved_at": "2026-01-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-01-20T18:00:00Z",
+              "resolved_at": "2026-01-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-01-19T19:00:00Z",
+              "resolved_at": "2026-01-23T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-01-20T20:00:00Z",
+              "resolved_at": "2026-01-24T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-02a",
+      "title": "Rainy day timelapse",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-02-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h09",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-02-05T17:00:00Z",
+              "resolved_at": "2026-02-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-02-06T18:00:00Z",
+              "resolved_at": "2026-02-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2026-02a",
+          "history": [
+            {
+              "at": "2026-02-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-02b",
+      "title": "Teleprompter tryout",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-02-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h08",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-02-19T17:00:00Z",
+              "resolved_at": "2026-02-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-02-19T17:00:00Z",
+              "resolved_at": "2026-02-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-02-20T18:00:00Z",
+              "resolved_at": "2026-02-22T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-03a",
+      "title": "Cheap slider test",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-03-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h07",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-03-05T17:00:00Z",
+              "resolved_at": "2026-03-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-03-06T18:00:00Z",
+              "resolved_at": "2026-03-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-03-05T19:00:00Z",
+              "resolved_at": "2026-03-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-03-06T20:00:00Z",
+              "resolved_at": "2026-03-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2026-03a",
+          "history": [
+            {
+              "at": "2026-03-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-03b",
+      "title": "Batch exporting shorts",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-03-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-03-19T17:00:00Z",
+              "resolved_at": "2026-03-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-03-20T18:00:00Z",
+              "resolved_at": "2026-03-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-03-19T19:00:00Z",
+              "resolved_at": "2026-03-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-04a",
+      "title": "Fixing echo in a room",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-04-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h09",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-04-05T17:00:00Z",
+              "resolved_at": "2026-04-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-04-05T17:00:00Z",
+              "resolved_at": "2026-04-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-04-06T18:00:00Z",
+              "resolved_at": "2026-04-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-04b",
+      "title": "Weekend gear clean",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "unlisted",
+      "published_at": null,
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h07",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-04-19T17:00:00Z",
+              "resolved_at": "2026-04-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-04-19T17:00:00Z",
+              "resolved_at": "2026-04-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-04-20T18:00:00Z",
+              "resolved_at": "2026-04-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-04-19T19:00:00Z",
+              "resolved_at": "2026-04-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-05a",
+      "title": "Interview lighting",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-05-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h08",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-05-05T17:00:00Z",
+              "resolved_at": "2026-05-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-05-05T17:00:00Z",
+              "resolved_at": "2026-05-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-05-06T18:00:00Z",
+              "resolved_at": "2026-05-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2026-05a",
+          "history": [
+            {
+              "at": "2026-05-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-05b",
+      "title": "Hard drive failure story",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-05-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h07",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-05-19T17:00:00Z",
+              "resolved_at": "2026-05-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-05-20T18:00:00Z",
+              "resolved_at": "2026-05-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-05-19T19:00:00Z",
+              "resolved_at": "2026-05-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2026-05b",
+          "history": [
+            {
+              "at": "2026-05-17T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-06a",
+      "title": "Desk mat review",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-06-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h09",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-06-05T17:00:00Z",
+              "resolved_at": "2026-06-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-06-05T17:00:00Z",
+              "resolved_at": "2026-06-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-06-06T18:00:00Z",
+              "resolved_at": "2026-06-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2026-06a",
+          "history": [
+            {
+              "at": "2026-06-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-06b",
+      "title": "Packing for a shoot",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-06-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-06-19T17:00:00Z",
+              "resolved_at": "2026-06-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-06-19T17:00:00Z",
+              "resolved_at": "2026-06-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-06-20T18:00:00Z",
+              "resolved_at": "2026-06-22T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-07a",
+      "title": "Captions workflow",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-07-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-07-05T17:00:00Z",
+              "resolved_at": "2026-07-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-07-06T18:00:00Z",
+              "resolved_at": "2026-07-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-07-05T19:00:00Z",
+              "resolved_at": "2026-07-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-07-06T20:00:00Z",
+              "resolved_at": "2026-07-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-07b",
+      "title": "Thumbnail sketching",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-07-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h10",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-07-19T17:00:00Z",
+              "resolved_at": "2026-07-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-07-20T18:00:00Z",
+              "resolved_at": "2026-07-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-07-19T19:00:00Z",
+              "resolved_at": "2026-07-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-08a",
+      "title": "Colour LUT basics",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-08-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h08",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-08-05T17:00:00Z",
+              "resolved_at": "2026-08-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-08-05T17:00:00Z",
+              "resolved_at": "2026-08-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-08-06T18:00:00Z",
+              "resolved_at": "2026-08-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-08-05T19:00:00Z",
+              "resolved_at": "2026-08-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-08-06T20:00:00Z",
+              "resolved_at": "2026-08-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-08b",
+      "title": "Wireless mic test",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-08-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h03",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-08-19T17:00:00Z",
+              "resolved_at": "2026-08-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-08-19T17:00:00Z",
+              "resolved_at": "2026-08-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-08-20T18:00:00Z",
+              "resolved_at": "2026-08-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-08-19T19:00:00Z",
+              "resolved_at": "2026-08-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-09a",
+      "title": "Studio year in review",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-09-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h05",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-09-05T17:00:00Z",
+              "resolved_at": "2026-09-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-09-05T17:00:00Z",
+              "resolved_at": "2026-09-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-09-06T18:00:00Z",
+              "resolved_at": "2026-09-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-09-05T19:00:00Z",
+              "resolved_at": "2026-09-09T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-09-06T20:00:00Z",
+              "resolved_at": "2026-09-10T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-09b",
+      "title": "Ultralight vlog kit",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-09-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h10",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-09-19T17:00:00Z",
+              "resolved_at": "2026-09-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-09-19T17:00:00Z",
+              "resolved_at": "2026-09-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-09-20T18:00:00Z",
+              "resolved_at": "2026-09-22T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-09-19T19:00:00Z",
+              "resolved_at": "2026-09-23T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-10a",
+      "title": "Camera strap roundup",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-10-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h08",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-10-05T17:00:00Z",
+              "resolved_at": "2026-10-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-10-05T17:00:00Z",
+              "resolved_at": "2026-10-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-10-06T18:00:00Z",
+              "resolved_at": "2026-10-08T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-10-05T19:00:00Z",
+              "resolved_at": "2026-10-09T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2026-10a",
+          "history": [
+            {
+              "at": "2026-10-03T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-10b",
+      "title": "Backup power for shoots",
+      "description": "Synthetic episode project for the studio channel.",
+      "sponsored": false,
+      "visibility": "public",
+      "published_at": "2026-10-27T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h05",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-10-19T17:00:00Z",
+              "resolved_at": "2026-10-20T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-10-19T17:00:00Z",
+              "resolved_at": "2026-10-21T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-10-20T18:00:00Z",
+              "resolved_at": "2026-10-22T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-11a",
+      "title": "Quiet keyboard switches",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "public",
+      "published_at": "2026-11-13T18:00:00Z",
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h10",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-11-05T17:00:00Z",
+              "resolved_at": "2026-11-06T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "09:02",
+              "text": "End card links are outdated.",
+              "at": "2026-11-05T17:00:00Z",
+              "resolved_at": "2026-11-07T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-11-06T18:00:00Z",
+              "resolved_at": "2026-11-08T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-11b",
+      "title": "Planning a series",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": {
+        "at": "2026-11-27T18:00:00Z",
+        "override": false
+      },
+      "release_blockers": [],
+      "track_id": "bgm-h10",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-11-14T17:00:00Z",
+              "resolved_at": "2026-11-15T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-11-14T17:00:00Z",
+              "resolved_at": "2026-11-15T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-11-15T18:00:00Z",
+              "resolved_at": "2026-11-16T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2026-11b",
+          "history": [
+            {
+              "at": "2026-11-12T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-12a",
+      "title": "Spring studio refresh",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": {
+        "at": "2026-12-13T18:00:00Z",
+        "override": false
+      },
+      "release_blockers": [],
+      "track_id": "bgm-h08",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-11-11T17:00:00Z",
+              "resolved_at": "2026-11-12T20:00:00Z"
+            },
+            {
+              "id": "n2",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-11-12T18:00:00Z",
+              "resolved_at": "2026-11-13T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "04:40",
+              "text": "Check the lower-third spelling.",
+              "at": "2026-11-11T19:00:00Z",
+              "resolved_at": "2026-11-12T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "00:14",
+              "text": "Trim the cold open.",
+              "at": "2026-11-12T20:00:00Z",
+              "resolved_at": "2026-11-13T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-2026-12a",
+          "history": [
+            {
+              "at": "2026-11-09T16:00:00Z",
+              "status": "signed",
+              "reason": "Signed at guest intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep-2026-12b",
+      "title": "Holiday gift guide for editors",
+      "description": "Synthetic sponsored episode project for the studio channel.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-h08",
+      "active_cut": "v2",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "v1-n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-11-15T17:00:00Z",
+              "resolved_at": "2026-11-16T18:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v2",
+          "notes": [
+            {
+              "id": "n1",
+              "timecode": "01:52",
+              "text": "Lower music under dialogue.",
+              "at": "2026-11-15T17:00:00Z",
+              "resolved_at": null
+            },
+            {
+              "id": "n2",
+              "timecode": "06:12",
+              "text": "Add the product disclosure card.",
+              "at": "2026-11-16T18:00:00Z",
+              "resolved_at": "2026-11-17T20:00:00Z"
+            },
+            {
+              "id": "n3",
+              "timecode": "07:30",
+              "text": "Color mismatch between angles.",
+              "at": "2026-11-15T19:00:00Z",
+              "resolved_at": "2026-11-16T20:00:00Z"
+            },
+            {
+              "id": "n4",
+              "timecode": "03:05",
+              "text": "Replace the shaky b-roll.",
+              "at": "2026-11-16T20:00:00Z",
+              "resolved_at": "2026-11-17T20:00:00Z"
+            }
+          ],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep14",
+      "title": "Laptop battery-life review",
+      "description": "Synthetic production review project.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-lofi-07",
+      "active_cut": "v3",
+      "cuts": [
+        {
+          "id": "v2",
+          "notes": [],
+          "thumbnails": [],
+          "keyframes": [],
+          "active_thumbnail": null,
+          "results": []
+        },
+        {
+          "id": "v3",
+          "notes": [
+            {
+              "id": "benchmark",
+              "timecode": "04:12",
+              "text": "Wrong benchmark graphic.",
+              "at": "2026-03-13T18:00:00Z",
+              "resolved_at": null
+            },
+            {
+              "id": "screen",
+              "timecode": "08:45",
+              "text": "Review the screen content.",
+              "at": "2026-03-13T18:00:00Z",
+              "resolved_at": null
+            },
+            {
+              "id": "intro",
+              "timecode": "00:11",
+              "text": "Tighten the intro.",
+              "at": "2026-03-13T18:00:00Z",
+              "resolved_at": "2026-03-13T18:00:00Z"
+            }
+          ],
+          "thumbnails": [
+            "thumb-a",
+            "thumb-b",
+            "thumb-c"
+          ],
+          "keyframes": [
+            "keyframe-0845"
+          ],
+          "active_thumbnail": null,
+          "results": [
+            {
+              "asset_id": "thumb-a",
+              "ctr": 0.035,
+              "retention": 0.47,
+              "at": "2026-03-13T18:00:00Z"
+            }
+          ]
+        }
+      ],
+      "guest_releases": [
+        {
+          "id": "guest-ep14",
+          "history": [
+            {
+              "at": "2026-03-13T18:00:00Z",
+              "status": "signed",
+              "reason": "Signed in studio intake."
+            }
+          ]
+        }
+      ],
+      "overrides": []
+    },
+    {
+      "id": "ep15",
+      "title": "Color grading walkthrough",
+      "description": "Synthetic production review project.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-synth-11",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "intro",
+              "timecode": "00:12",
+              "text": "Check opening for color grading walkthrough.",
+              "at": "2026-04-13T18:00:00Z",
+              "resolved_at": "2026-04-13T18:00:00Z"
+            },
+            {
+              "id": "audio",
+              "timecode": "02:41",
+              "text": "Match dialogue levels between takes.",
+              "at": "2026-04-13T18:00:00Z",
+              "resolved_at": "2026-04-13T18:00:00Z"
+            },
+            {
+              "id": "end",
+              "timecode": "06:17",
+              "text": "Confirm the end card.",
+              "at": "2026-04-13T18:00:00Z",
+              "resolved_at": "2026-04-13T18:00:00Z"
+            }
+          ],
+          "thumbnails": [
+            "ep15-thumb-a",
+            "ep15-thumb-b",
+            "ep15-thumb-c"
+          ],
+          "keyframes": [
+            "ep15-keyframe"
+          ],
+          "active_thumbnail": null,
+          "results": [
+            {
+              "asset_id": "ep15-thumb-a",
+              "ctr": 0.038000000000000006,
+              "retention": 0.49,
+              "at": "2026-04-13T18:00:00Z"
+            }
+          ]
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep16",
+      "title": "Packing a field kit",
+      "description": "Synthetic production review project.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-synth-12",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "intro",
+              "timecode": "00:12",
+              "text": "Check opening for packing a field kit.",
+              "at": "2026-05-13T18:00:00Z",
+              "resolved_at": "2026-05-13T18:00:00Z"
+            },
+            {
+              "id": "audio",
+              "timecode": "02:41",
+              "text": "Match dialogue levels between takes.",
+              "at": "2026-05-13T18:00:00Z",
+              "resolved_at": "2026-05-13T18:00:00Z"
+            },
+            {
+              "id": "end",
+              "timecode": "06:17",
+              "text": "Confirm the end card.",
+              "at": "2026-05-13T18:00:00Z",
+              "resolved_at": "2026-05-13T18:00:00Z"
+            }
+          ],
+          "thumbnails": [
+            "ep16-thumb-a",
+            "ep16-thumb-b",
+            "ep16-thumb-c"
+          ],
+          "keyframes": [
+            "ep16-keyframe"
+          ],
+          "active_thumbnail": null,
+          "results": [
+            {
+              "asset_id": "ep16-thumb-a",
+              "ctr": 0.041,
+              "retention": 0.51,
+              "at": "2026-05-13T18:00:00Z"
+            }
+          ]
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep17",
+      "title": "Studio lighting on a budget",
+      "description": "Synthetic production review project.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-synth-12",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "intro",
+              "timecode": "00:12",
+              "text": "Check opening for studio lighting on a budget.",
+              "at": "2026-06-13T18:00:00Z",
+              "resolved_at": "2026-06-13T18:00:00Z"
+            },
+            {
+              "id": "audio",
+              "timecode": "02:41",
+              "text": "Match dialogue levels between takes.",
+              "at": "2026-06-13T18:00:00Z",
+              "resolved_at": "2026-06-13T18:00:00Z"
+            },
+            {
+              "id": "end",
+              "timecode": "06:17",
+              "text": "Confirm the end card.",
+              "at": "2026-06-13T18:00:00Z",
+              "resolved_at": "2026-06-13T18:00:00Z"
+            }
+          ],
+          "thumbnails": [
+            "ep17-thumb-a",
+            "ep17-thumb-b",
+            "ep17-thumb-c"
+          ],
+          "keyframes": [
+            "ep17-keyframe"
+          ],
+          "active_thumbnail": null,
+          "results": [
+            {
+              "asset_id": "ep17-thumb-a",
+              "ctr": 0.044000000000000004,
+              "retention": 0.53,
+              "at": "2026-06-13T18:00:00Z"
+            }
+          ]
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep18",
+      "title": "Desktop audio setup",
+      "description": "Synthetic production review project.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-synth-12",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "intro",
+              "timecode": "00:12",
+              "text": "Check opening for desktop audio setup.",
+              "at": "2026-07-13T18:00:00Z",
+              "resolved_at": "2026-07-13T18:00:00Z"
+            },
+            {
+              "id": "audio",
+              "timecode": "02:41",
+              "text": "Match dialogue levels between takes.",
+              "at": "2026-07-13T18:00:00Z",
+              "resolved_at": "2026-07-13T18:00:00Z"
+            },
+            {
+              "id": "end",
+              "timecode": "06:17",
+              "text": "Confirm the end card.",
+              "at": "2026-07-13T18:00:00Z",
+              "resolved_at": "2026-07-13T18:00:00Z"
+            }
+          ],
+          "thumbnails": [
+            "ep18-thumb-a",
+            "ep18-thumb-b",
+            "ep18-thumb-c"
+          ],
+          "keyframes": [
+            "ep18-keyframe"
+          ],
+          "active_thumbnail": null,
+          "results": [
+            {
+              "asset_id": "ep18-thumb-a",
+              "ctr": 0.047,
+              "retention": 0.5499999999999999,
+              "at": "2026-07-13T18:00:00Z"
+            }
+          ]
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    },
+    {
+      "id": "ep19",
+      "title": "A week of commute edits",
+      "description": "Synthetic production review project.",
+      "sponsored": true,
+      "visibility": "private",
+      "published_at": null,
+      "schedule": null,
+      "release_blockers": [],
+      "track_id": "bgm-synth-12",
+      "active_cut": "v1",
+      "cuts": [
+        {
+          "id": "v1",
+          "notes": [
+            {
+              "id": "intro",
+              "timecode": "00:12",
+              "text": "Check opening for a week of commute edits.",
+              "at": "2026-08-13T18:00:00Z",
+              "resolved_at": "2026-08-13T18:00:00Z"
+            },
+            {
+              "id": "audio",
+              "timecode": "02:41",
+              "text": "Match dialogue levels between takes.",
+              "at": "2026-08-13T18:00:00Z",
+              "resolved_at": "2026-08-13T18:00:00Z"
+            },
+            {
+              "id": "end",
+              "timecode": "06:17",
+              "text": "Confirm the end card.",
+              "at": "2026-08-13T18:00:00Z",
+              "resolved_at": "2026-08-13T18:00:00Z"
+            }
+          ],
+          "thumbnails": [
+            "ep19-thumb-a",
+            "ep19-thumb-b",
+            "ep19-thumb-c"
+          ],
+          "keyframes": [
+            "ep19-keyframe"
+          ],
+          "active_thumbnail": null,
+          "results": [
+            {
+              "asset_id": "ep19-thumb-a",
+              "ctr": 0.05,
+              "retention": 0.57,
+              "at": "2026-08-13T18:00:00Z"
+            }
+          ]
+        }
+      ],
+      "guest_releases": [],
+      "overrides": []
+    }
+  ],
+  "library": [
+    {
+      "id": "bgm-lofi-07",
+      "title": "Lo-fi desk loop",
+      "bpm": 92,
+      "mood": "calm",
+      "license_scope": "non_commercial_only",
+      "expires_at": null,
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": []
+    },
+    {
+      "id": "bgm-synth-11",
+      "title": "Upbeat synth",
+      "bpm": 110,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": "2026-11-25T00:00:00Z",
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": []
+    },
+    {
+      "id": "bgm-synth-12",
+      "title": "Bright synth",
+      "bpm": 102,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": []
+    },
+    {
+      "id": "bgm-fast",
+      "title": "Fast synth",
+      "bpm": 115,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": []
+    },
+    {
+      "id": "bgm-expired",
+      "title": "Expired synth",
+      "bpm": 108,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": "2026-10-31T00:00:00Z",
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": []
+    },
+    {
+      "id": "b_roll-1",
+      "title": "Desk setup wide shot",
+      "kind": "b_roll",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "desk setup"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-1",
+      "title": "Desk setup interview transcript",
+      "kind": "transcript",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "desk setup"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-2",
+      "title": "City commute wide shot",
+      "kind": "b_roll",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "city commute"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-2",
+      "title": "City commute interview transcript",
+      "kind": "transcript",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "city commute"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-3",
+      "title": "Color workflow wide shot",
+      "kind": "b_roll",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "color workflow"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-3",
+      "title": "Color workflow interview transcript",
+      "kind": "transcript",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "color workflow"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-4",
+      "title": "Studio lighting wide shot",
+      "kind": "b_roll",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "studio lighting"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-4",
+      "title": "Studio lighting interview transcript",
+      "kind": "transcript",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "studio lighting"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-5",
+      "title": "Battery test wide shot",
+      "kind": "b_roll",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "battery test"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-5",
+      "title": "Battery test interview transcript",
+      "kind": "transcript",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "battery test"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-6",
+      "title": "Sound check wide shot",
+      "kind": "b_roll",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "sound check"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-6",
+      "title": "Sound check interview transcript",
+      "kind": "transcript",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "sound check"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-7",
+      "title": "Field edit wide shot",
+      "kind": "b_roll",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "field edit"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-7",
+      "title": "Field edit interview transcript",
+      "kind": "transcript",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "field edit"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-8",
+      "title": "Travel rig wide shot",
+      "kind": "b_roll",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "travel rig"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-8",
+      "title": "Travel rig interview transcript",
+      "kind": "transcript",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "travel rig"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-9",
+      "title": "Cable kit wide shot",
+      "kind": "b_roll",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "cable kit"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-9",
+      "title": "Cable kit interview transcript",
+      "kind": "transcript",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "cable kit"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-10",
+      "title": "Camera rig wide shot",
+      "kind": "b_roll",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "camera rig"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-10",
+      "title": "Camera rig interview transcript",
+      "kind": "transcript",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "camera rig"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-11",
+      "title": "Notebook wide shot",
+      "kind": "b_roll",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "notebook"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-11",
+      "title": "Notebook interview transcript",
+      "kind": "transcript",
+      "mood": "upbeat",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "exterior",
+        "notebook"
+      ],
+      "history": []
+    },
+    {
+      "id": "b_roll-12",
+      "title": "Export review wide shot",
+      "kind": "b_roll",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "export review"
+      ],
+      "history": []
+    },
+    {
+      "id": "transcript-12",
+      "title": "Export review interview transcript",
+      "kind": "transcript",
+      "mood": "calm",
+      "bpm": null,
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "visual_tags": [
+        "interior",
+        "export review"
+      ],
+      "history": []
+    },
+    {
+      "id": "bgm-h01",
+      "title": "Morning desk pads",
+      "bpm": 84,
+      "mood": "calm",
+      "license_scope": "non_commercial_only",
+      "expires_at": null,
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2025-01-08T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h02",
+      "title": "Pocket groove",
+      "bpm": 104,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": "2025-12-31T23:59:59Z",
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2025-01-15T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h03",
+      "title": "Glass tones",
+      "bpm": 96,
+      "mood": "calm",
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2025-02-20T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h04",
+      "title": "Night drive pulse",
+      "bpm": 118,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": "2025-08-31T23:59:59Z",
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2025-03-12T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h05",
+      "title": "Paper lanterns",
+      "bpm": 78,
+      "mood": "calm",
+      "license_scope": "non_commercial_only",
+      "expires_at": null,
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2025-04-02T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h06",
+      "title": "Signal bloom",
+      "bpm": 112,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2025-05-14T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        },
+        {
+          "at": "2025-09-18T16:00:00Z",
+          "status": "revoked",
+          "reason": "Catalog withdrew the track."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h07",
+      "title": "Workshop shuffle",
+      "bpm": 100,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": "2026-06-30T23:59:59Z",
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2025-08-27T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h08",
+      "title": "Soft focus",
+      "bpm": 88,
+      "mood": "calm",
+      "license_scope": "commercial_sponsored",
+      "expires_at": null,
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2025-12-03T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h09",
+      "title": "Bright transit",
+      "bpm": 114,
+      "mood": "upbeat",
+      "license_scope": "commercial_sponsored",
+      "expires_at": "2026-12-31T23:59:59Z",
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2026-02-11T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    },
+    {
+      "id": "bgm-h10",
+      "title": "Late edit hum",
+      "bpm": 90,
+      "mood": "calm",
+      "license_scope": "commercial_sponsored",
+      "expires_at": "2026-12-15T23:59:59Z",
+      "kind": "bgm",
+      "visual_tags": [],
+      "history": [
+        {
+          "at": "2026-06-17T16:00:00Z",
+          "status": "active",
+          "reason": "License signed with synthetic catalog."
+        }
+      ]
+    }
+  ]
+}

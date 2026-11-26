@@ -1,0 +1,360 @@
+{
+  "input": "datasets/history/seed.json",
+  "sha256": "8e57870bbda293d9fa752a4a6ca60b693177e5bbc505f5b6d7e234871c9f1229",
+  "scope": "CutRoom Environment evaluation dataset",
+  "timezone": "America/Los_Angeles",
+  "window": [
+    "2025-01-01",
+    "2026-12-31"
+  ],
+  "clock": "2026-11-19T18:00:00Z",
+  "total_dated_fields": 493,
+  "in_window": 493,
+  "outside_window": 0,
+  "invalid": 0,
+  "projects": 54,
+  "library_items": 39,
+  "distinct_dates": 318,
+  "distinct_past_dates": 313,
+  "distinct_planned_dates": 5,
+  "earliest": "2025-01-05",
+  "latest": "2026-12-31",
+  "per_source": {
+    "ab_results": {
+      "fields": 6,
+      "distinct_dates": 6
+    },
+    "guest_releases": {
+      "fields": 23,
+      "distinct_dates": 23
+    },
+    "licenses": {
+      "fields": 18,
+      "distinct_dates": 18
+    },
+    "overrides": {
+      "fields": 1,
+      "distinct_dates": 1
+    },
+    "releases": {
+      "fields": 44,
+      "distinct_dates": 44
+    },
+    "review_notes": {
+      "fields": 399,
+      "distinct_dates": 244
+    },
+    "schedules": {
+      "fields": 2,
+      "distinct_dates": 2
+    }
+  },
+  "months_without_records": [],
+  "provenance": {
+    "synthetic_fields": 493,
+    "real_fields": 0,
+    "mixed_fields": 0
+  },
+  "by_month": [
+    {
+      "month": "2025-01",
+      "records": 20,
+      "distinct_dates": 14,
+      "past_dates": 14,
+      "planned_dates": 0,
+      "by_source": {
+        "licenses": 2,
+        "releases": 2,
+        "review_notes": 16
+      }
+    },
+    {
+      "month": "2025-02",
+      "records": 21,
+      "distinct_dates": 15,
+      "past_dates": 15,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 2,
+        "licenses": 1,
+        "releases": 2,
+        "review_notes": 16
+      }
+    },
+    {
+      "month": "2025-03",
+      "records": 18,
+      "distinct_dates": 14,
+      "past_dates": 14,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 1,
+        "licenses": 1,
+        "releases": 2,
+        "review_notes": 14
+      }
+    },
+    {
+      "month": "2025-04",
+      "records": 17,
+      "distinct_dates": 12,
+      "past_dates": 12,
+      "planned_dates": 0,
+      "by_source": {
+        "licenses": 1,
+        "releases": 2,
+        "review_notes": 14
+      }
+    },
+    {
+      "month": "2025-05",
+      "records": 16,
+      "distinct_dates": 14,
+      "past_dates": 14,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 1,
+        "licenses": 1,
+        "releases": 2,
+        "review_notes": 12
+      }
+    },
+    {
+      "month": "2025-06",
+      "records": 23,
+      "distinct_dates": 15,
+      "past_dates": 15,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 3,
+        "releases": 2,
+        "review_notes": 18
+      }
+    },
+    {
+      "month": "2025-07",
+      "records": 21,
+      "distinct_dates": 15,
+      "past_dates": 15,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 1,
+        "releases": 2,
+        "review_notes": 18
+      }
+    },
+    {
+      "month": "2025-08",
+      "records": 23,
+      "distinct_dates": 15,
+      "past_dates": 15,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 1,
+        "licenses": 2,
+        "releases": 2,
+        "review_notes": 18
+      }
+    },
+    {
+      "month": "2025-09",
+      "records": 16,
+      "distinct_dates": 13,
+      "past_dates": 13,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 1,
+        "licenses": 1,
+        "releases": 2,
+        "review_notes": 12
+      }
+    },
+    {
+      "month": "2025-10",
+      "records": 24,
+      "distinct_dates": 16,
+      "past_dates": 16,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 2,
+        "releases": 2,
+        "review_notes": 20
+      }
+    },
+    {
+      "month": "2025-11",
+      "records": 23,
+      "distinct_dates": 16,
+      "past_dates": 16,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 2,
+        "overrides": 1,
+        "releases": 2,
+        "review_notes": 18
+      }
+    },
+    {
+      "month": "2025-12",
+      "records": 18,
+      "distinct_dates": 14,
+      "past_dates": 14,
+      "planned_dates": 0,
+      "by_source": {
+        "licenses": 2,
+        "releases": 2,
+        "review_notes": 14
+      }
+    },
+    {
+      "month": "2026-01",
+      "records": 22,
+      "distinct_dates": 14,
+      "past_dates": 14,
+      "planned_dates": 0,
+      "by_source": {
+        "releases": 2,
+        "review_notes": 20
+      }
+    },
+    {
+      "month": "2026-02",
+      "records": 14,
+      "distinct_dates": 12,
+      "past_dates": 12,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 1,
+        "licenses": 1,
+        "releases": 2,
+        "review_notes": 10
+      }
+    },
+    {
+      "month": "2026-03",
+      "records": 23,
+      "distinct_dates": 14,
+      "past_dates": 14,
+      "planned_dates": 0,
+      "by_source": {
+        "ab_results": 1,
+        "guest_releases": 2,
+        "releases": 2,
+        "review_notes": 18
+      }
+    },
+    {
+      "month": "2026-04",
+      "records": 22,
+      "distinct_dates": 10,
+      "past_dates": 10,
+      "planned_dates": 0,
+      "by_source": {
+        "ab_results": 1,
+        "releases": 1,
+        "review_notes": 20
+      }
+    },
+    {
+      "month": "2026-05",
+      "records": 23,
+      "distinct_dates": 13,
+      "past_dates": 13,
+      "planned_dates": 0,
+      "by_source": {
+        "ab_results": 1,
+        "guest_releases": 2,
+        "releases": 2,
+        "review_notes": 18
+      }
+    },
+    {
+      "month": "2026-06",
+      "records": 24,
+      "distinct_dates": 13,
+      "past_dates": 13,
+      "planned_dates": 0,
+      "by_source": {
+        "ab_results": 1,
+        "guest_releases": 1,
+        "licenses": 2,
+        "releases": 2,
+        "review_notes": 18
+      }
+    },
+    {
+      "month": "2026-07",
+      "records": 23,
+      "distinct_dates": 13,
+      "past_dates": 13,
+      "planned_dates": 0,
+      "by_source": {
+        "ab_results": 1,
+        "releases": 2,
+        "review_notes": 20
+      }
+    },
+    {
+      "month": "2026-08",
+      "records": 27,
+      "distinct_dates": 13,
+      "past_dates": 13,
+      "planned_dates": 0,
+      "by_source": {
+        "ab_results": 1,
+        "releases": 2,
+        "review_notes": 24
+      }
+    },
+    {
+      "month": "2026-09",
+      "records": 20,
+      "distinct_dates": 13,
+      "past_dates": 13,
+      "planned_dates": 0,
+      "by_source": {
+        "releases": 2,
+        "review_notes": 18
+      }
+    },
+    {
+      "month": "2026-10",
+      "records": 18,
+      "distinct_dates": 13,
+      "past_dates": 13,
+      "planned_dates": 0,
+      "by_source": {
+        "guest_releases": 1,
+        "licenses": 1,
+        "releases": 2,
+        "review_notes": 14
+      }
+    },
+    {
+      "month": "2026-11",
+      "records": 34,
+      "distinct_dates": 14,
+      "past_dates": 12,
+      "planned_dates": 2,
+      "by_source": {
+        "guest_releases": 2,
+        "licenses": 1,
+        "releases": 1,
+        "review_notes": 29,
+        "schedules": 1
+      }
+    },
+    {
+      "month": "2026-12",
+      "records": 3,
+      "distinct_dates": 3,
+      "past_dates": 0,
+      "planned_dates": 3,
+      "by_source": {
+        "licenses": 2,
+        "schedules": 1
+      }
+    }
+  ],
+  "outside_details": []
+}

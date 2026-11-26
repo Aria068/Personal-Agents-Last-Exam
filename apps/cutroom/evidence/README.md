@@ -1,0 +1,51 @@
+# CutRoom delivery evidence
+
+v1 for PR #239. Approved scope: `proposals/environment/cutroom.md` @ `ad21e67`. Policy revision: `docs/submission-evidence.md` at upstream `6933c43`.
+
+Run everything from the PALE checkout root (Node.js 18 or later, public runtime 1.6.0, Core API 1.2.0):
+
+```sh
+npm --prefix apps/cutroom test                        # business + dataset tests
+node --test apps/cutroom/tests/mcp.test.cjs           # stdio MCP, image access, real dataset load
+npm run app:verify -- --app apps/cutroom --output .artifacts/cutroom.json
+node apps/cutroom/scripts/coverage.cjs                # recount dataset coverage
+```
+
+## Review items from the plan approval
+
+| Item | How it is handled | Tests |
+| --- | --- | --- |
+| 1. A scheduled release once its time arrives | A read derives the release from `ctx.virtual_now` and writes nothing. Clearance is checked again at the scheduled instant: if it fails, the project stays `private` and `release_blockers` gives the reason. An event at exactly that instant counts. A revocation after release adds an audit blocker and leaves the project `public`. | `business.test.cjs`: "release derives at the scheduled instant…", "revocation before or exactly at release…"; `mcp.test.cjs` (both cases over MCP) |
+| 2. What `license.revoke` means | Music: `revoked` produces `invalid_license`. Guest release: `withdrawn` produces `missing_guest_release`, and `signed` re-signs it and clears the blocker. Any other status, or music that is not assigned to the project, is rejected as `invalid_event`. | `business.test.cjs`: "guest withdrawal and re-sign…"; `history.test.cjs`: "later revocations and withdrawals…" |
+| 3. Registering image access | Thumbnails and keyframes belong to their `project`. The mapping `project` → `cutroom.projects.get` is in `runtime/registrations/cutroom.json`, a separate commit for maintainer review. Access does not depend on release visibility. | `mcp.test.cjs`: resource read and hash, cross-run denial, scoped `projects.get` hiding images |
+| Suggestion: override as its own tool | `cutroom.projects.override_release`. The scenario policy leaves it out. It records the actor, time, intended transition and blockers. | `mcp.test.cjs` (`permission_denied`), `business.test.cjs` |
+
+The acceptance checks named in the review are covered. `max_bpm` 115 returns the 115 BPM track and 114 does not. A license is still valid at exactly `expires_at`. `clearance_blocked` leaves state and version unchanged. The image cue sheet is in `review/visual-checks.md`, and agents cannot read it over MCP.
+
+## Evidence index
+
+| Workflow / requirement | Scope | Reference screenshots | Implemented sequence | Business and MCP tests | Dependency result | Date report | Verdict and remaining gap |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 Release check | Required | N/A: MCP-only, `ui: "none"` | N/A | business, mcp | N/A: no App dependencies | `coverage.md` | Passed locally |
+| 2 Thumbnail choice | Required | N/A | N/A | business, mcp (PNG `resources/read`) | N/A | — | Passed locally; human visual sign-off pending |
+| 3 Music replacement | Required | N/A | N/A | business (BPM and expiry boundaries) | N/A | — | Passed locally |
+| Scheduled release and revocation | Required (item 1, 2) | N/A | N/A | business, history, mcp | N/A | — | Passed locally |
+| Image access registration | Required (item 3) | N/A | N/A | mcp | Core `resource-access` | — | Waiting on maintainer review of the registration file |
+| Evaluation dataset 2025-01-01 to 2026-12-31 | Required by policy `6933c43` | N/A | N/A | history, mcp (`env.load_seed`) | N/A | [`coverage.md`](coverage.md), [`coverage.json`](coverage.json) | Passed locally; realism review pending |
+
+There is no GUI, Messaging or cross-App connection in the approved scope. So no reference screenshots or dependency demonstrations apply.
+
+## Evaluation dataset
+
+- `datasets/history/` holds `seed.json`, `dataset.json`, `assets.catalog.json` and `binding.json`. The seed has 54 projects and 39 library items in the normal seed schema. It contains the 6 evaluation fixture projects unchanged, plus two episodes a month from January 2025 to December 2026.
+- To load it, call `env.load_seed` with `data` = `seed.json` and `bundle` = `{dataset, catalog, blobs}` (blobs from the package bundle). The second test in `mcp.test.cjs` shows this.
+- Coverage: 318 distinct dates, every month of the window, 0 records outside the window, time zone `America/Los_Angeles`. December 2026 holds only fields that point forward from the clock (`2026-11-19T18:00Z`): a scheduled release and license expiries. No note, signing or release after the clock is stored as a past fact.
+- Provenance: everything is synthetic. CutRoom models one creator's private production workspace, so it has no public website history to collect, and there is no real anchor data. `scripts/build-history.cjs` (seed 239) regenerates the files byte for byte, and `history.test.cjs` checks that the committed report matches the committed seed's hash.
+- Change from the approved plan: the plan started history on or after 2026-01-01. The later policy asks for 2025-01-01 to 2026-12-31. This is added delivery work: the proposal file is unchanged, and the small fixture `fixtures/minimal.json` stays the default seed.
+
+## Incomplete or open
+
+- Independent human visual and provenance review of the 24 PNGs and of the dataset's realism (`dataset.json` `review.status: pending`).
+- Maintainer review of `runtime/registrations/cutroom.json`.
+- CI `public-runtime (18)`, `public-runtime (22)` and `base-runtime-compatibility` run on the PR. Locally only Node.js 23 was used.
+- Out of scope by design: video encoding, streaming, real uploads, GUI.
