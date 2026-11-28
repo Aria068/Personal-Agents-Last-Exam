@@ -63,14 +63,21 @@ write('app.json',{schema_version:1,app_id:app,version:'1.0.0',core_api_version:'
  dataset:'contribution/dataset.json',resources:{catalog:'contribution/assets.catalog.json',directory:'assets'},contribution:'contribution/contribution.json'});
 write('tools.json',tools);
 write(schemaPaths.seed,obj({account_id:id,owner_person_id:id,timezone:text(64),projects:arr(obj(projectFields)),library:arr(track)}));
-const state=read('apps/notes/schemas/state.schema.json');state.properties.app_id.const=app;write(schemaPaths.state,state);
+// Templates are copied into the package (scripts/templates/) so it rebuilds on its own.
+const template=file=>JSON.parse(fs.readFileSync(path.join(root,'scripts/templates',file),'utf8'));
+const state=template('state.schema.json');state.properties.app_id.const=app;write(schemaPaths.state,state);
 write(schemaPaths.events,{oneOf:Object.entries(events).map(([op,payload])=>obj({event_id:id,at:date,operation:{const:op},payload}))});
 for(const name of ['resources','bundle','asset-catalog','asset-descriptor','dataset','quality']){
  const file=`schemas/${name}.schema.json`;
  fs.copyFileSync(path.join(repo,'runtime/contracts',file),path.join(root,file));
 }
-const c=read('apps/notes/contribution/contribution.json');
+const c=template('contribution.template.json');
 Object.assign(c,{app_id:app,gui_ref:null,events:{...c.events,accepts:Object.keys(events).map(type=>({type,schema_ref:schemaPaths.events,status:'implemented'}))}});
+c.extensions=[{namespace:'cutroom.evaluation_dataset',version:'1',required:false,data:{
+ description:'Delivery evaluation dataset, 2025-01-01 to 2026-12-31, fully synthetic. fixtures/minimal.json stays the default smoke seed.',
+ seed:'datasets/history/seed.json',dataset:'datasets/history/dataset.json',catalog:'datasets/history/assets.catalog.json',
+ binding:'datasets/history/binding.json',load_seed_arguments:'scripts/history-bundle.cjs#loadSeedArgs',
+ default_virtual_now:clock,coverage_report:'evidence/coverage.md'}}];
 c.asset_runtime.implemented_mime_types=['image/png'];c.asset_runtime.implemented_storage_adapters=['storage.file'];
 c.interfaces[0].operations=tools.map(t=>({name:t.name,effect:t.read_only?'read':'write',caller:'agent'}));
 write('contribution/contribution.json',c);

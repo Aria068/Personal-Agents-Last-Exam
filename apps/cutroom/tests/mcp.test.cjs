@@ -3,8 +3,17 @@ const test=require('node:test');
 const assert=require('node:assert/strict');
 const path=require('node:path');
 const crypto=require('node:crypto');
-const {prepare}=require('../../../runtime/prepare.cjs');
-const {Client}=require('../../../runtime/client.cjs');
+const fs=require('node:fs');
+// Resolve the runtime like service.cjs: PALE_RUNTIME_ROOT first, else the nearest checkout above the package.
+function runtimeRoot(){
+  if(process.env.PALE_RUNTIME_ROOT)return path.resolve(process.env.PALE_RUNTIME_ROOT);
+  for(let dir=path.resolve(__dirname,'..');;dir=path.dirname(dir)){
+    if(fs.existsSync(path.join(dir,'runtime/launch.cjs')))return path.join(dir,'runtime');
+    if(path.dirname(dir)===dir)throw new Error('Use the PALE checkout or set PALE_RUNTIME_ROOT.');
+  }
+}
+const {prepare}=require(path.join(runtimeRoot(),'prepare.cjs'));
+const {Client}=require(path.join(runtimeRoot(),'client.cjs'));
 
 test('CutRoom releases and project-bound image permissions over stdio MCP',async()=>{
   const p=prepare(path.resolve(__dirname,'..')), clients=[];
@@ -172,6 +181,8 @@ test('the 2025-2026 delivery dataset loads through env.load_seed and is queryabl
     const infra=await connect('infra'),agent=await connect('agent');
     const baseline=(await infra.call('env.snapshot'));
     const args=require('../scripts/history-bundle.cjs').loadSeedArgs();
+    const checked=await infra.call('env.validate_bundle',{data:args.data,bundle:args.bundle,binding:args.binding,policies:baseline.snapshot.policies});
+    assert.equal(checked.status,'ok',JSON.stringify(checked.quality?.checks?.filter?.(c=>!c.passed)||checked));
     const loaded=await infra.call('env.load_seed',{...args,expected_version:baseline.version,
       policies:baseline.snapshot.policies,request_id:'history-load'});
     assert.equal(loaded.status,'ready');

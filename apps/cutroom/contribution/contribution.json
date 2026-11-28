@@ -183,7 +183,23 @@
     "required_apps": [],
     "services": []
   },
-  "extensions": [],
+  "extensions": [
+    {
+      "namespace": "cutroom.evaluation_dataset",
+      "version": "1",
+      "required": false,
+      "data": {
+        "description": "Delivery evaluation dataset, 2025-01-01 to 2026-12-31, fully synthetic. fixtures/minimal.json stays the default smoke seed.",
+        "seed": "datasets/history/seed.json",
+        "dataset": "datasets/history/dataset.json",
+        "catalog": "datasets/history/assets.catalog.json",
+        "binding": "datasets/history/binding.json",
+        "load_seed_arguments": "scripts/history-bundle.cjs#loadSeedArgs",
+        "default_virtual_now": "2026-11-19T18:00:00Z",
+        "coverage_report": "evidence/coverage.md"
+      }
+    }
+  ],
   "asset_runtime": {
     "implemented_descriptor_versions": [
       "pale.asset-descriptor.v1"
