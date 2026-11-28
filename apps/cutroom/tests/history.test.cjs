@@ -93,6 +93,50 @@ test('planned releases become public on read at their instant without a write',(
   assert.ok(seed.projects.some(p=>p.schedule&&p.schedule.at.startsWith('2026-12')));
 });
 
+test('history is varied: note texts, descriptions, cadence and planned exceptions',()=>{
+  const notes=seed.projects.flatMap(p=>p.cuts.flatMap(c=>c.notes));
+  assert.ok(notes.length>=250,`notes ${notes.length}`);
+  assert.equal(new Set(notes.map(n=>n.text)).size,notes.length,'every note text is distinct');
+  assert.equal(new Set(seed.projects.map(p=>p.description)).size,seed.projects.length);
+  const released=seed.projects.filter(p=>p.published_at).map(p=>p.published_at);
+  assert.ok(new Set(released.map(r=>r.slice(8,10))).size>=15,'releases fall on many days of the month');
+  assert.ok(new Set(released.map(r=>r.slice(11,16))).size>=10,'releases happen at many times of day');
+  assert.ok(new Set(notes.map(n=>n.at.slice(8,10))).size>=25,'notes are written on most days of the month');
+  const plan=require('../scripts/history-episodes.json').episodes;
+  const ids=new Set(seed.projects.map(p=>p.id));
+  for(const e of plan.filter(e=>e.skip))assert.ok(!ids.has(`ep-${e.slot}`),`skipped ${e.slot}`);
+  const byId=id=>seed.projects.find(p=>p.id===id);
+  for(const e of plan.filter(e=>e.unlisted))assert.equal(byId(`ep-${e.slot}`).visibility,'unlisted');
+  for(const e of plan.filter(e=>e.pulled)){
+    const p=byId(`ep-${e.slot}`);
+    assert.equal(p.visibility,'private');assert.equal(p.published_at,null);
+    assert.ok(p.cuts.at(-1).notes.some(n=>n.resolved_at===null&&/^Pulled after release/.test(n.text)));
+  }
+  for(const e of plan.filter(e=>e.delay))assert.match(byId(`ep-${e.slot}`).description,new RegExp(`slipped ${e.delay} days`));
+});
+
+test('A/B history spans the window on real thumbnails, and the winner is the active thumbnail',()=>{
+  const catalog=require('../datasets/history/assets.catalog.json').assets;
+  const rows=seed.projects.filter(p=>p.id.startsWith('ep-')).flatMap(p=>p.cuts.flatMap(c=>c.results.map(r=>({p,c,r}))));
+  const months=new Set(rows.map(x=>x.r.at.slice(0,7)));
+  assert.ok(rows.length>=20,`rows ${rows.length}`);
+  assert.ok([...months].some(m=>m<'2025-07')&&[...months].some(m=>m>'2026-08'),[...months].join(','));
+  for(const {p,c,r} of rows){
+    assert.ok(c.thumbnails.includes(r.asset_id));
+    assert.ok(Date.parse(r.at)>Date.parse(p.published_at)&&Date.parse(r.at)<=Date.parse(clock));
+    const best=c.results.reduce((a,b)=>b.ctr>a.ctr?b:a);
+    assert.equal(c.active_thumbnail,best.asset_id);
+    const asset=catalog.find(a=>a.asset_id===r.asset_id);
+    const bytes=fs.readFileSync(path.join(root,asset.storage.path));
+    assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),asset.integrity.sha256);
+    assert.equal(asset.subjects[0].object_id,p.id);
+  }
+  const {historyBundle}=require('../scripts/history-bundle.cjs');
+  const b=historyBundle();
+  assert.equal(Object.keys(b.blobs).length,b.dataset.expected_counts.assets);
+  assert.ok(Object.values(b.blobs).reduce((n,x)=>n+Buffer.from(x,'base64').length,0)<=1024*1024);
+});
+
 test('music search respects license expiry across the window',()=>{
   const active=at=>call(at,'library.search',{kind:'bgm',active:true}).items.map(t=>t.id);
   assert.ok(active('2025-08-31T23:59:59Z').includes('bgm-h04'));

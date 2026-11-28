@@ -18,7 +18,8 @@ test('CutRoom releases and project-bound image permissions over stdio MCP',async
     const id='ep15', at='2026-11-24T20:00:00Z';
     const baseline=await snapshot();
     const uri='pale://cutroom-evidence/cutroom/assets/';
-    assert.equal((await agent.request('resources/list')).result.resources.length,24);
+    assert.equal((await agent.request('resources/list')).result.resources.length,24,
+      'CutRoom images are unreachable: runtime/registrations/cutroom.json (project -> cutroom.projects.get) must be present in the host runtime.');
     for(const asset_id of ['thumb-b','keyframe-0845']){
       const img=(await agent.request('resources/read',{uri:uri+asset_id})).result.contents[0];
       assert.equal(img.mimeType,'image/png');
@@ -142,7 +143,7 @@ test('stale writes, conflicting replays, unknown targets and early-clock loads l
 
     // Loading the history dataset at a clock before its latest past fact is refused.
     const seed=require('../datasets/history/seed.json'),dataset=require('../datasets/history/dataset.json');
-    const bundle={dataset,catalog:require('../datasets/history/assets.catalog.json'),blobs:s.resources.bundle.blobs};
+    const bundle=require('../scripts/history-bundle.cjs').historyBundle();
     const load=(virtual_now,request_id)=>infra.call('env.load_seed',{expected_version:version(s),data:seed,bundle,
       binding:require('../datasets/history/binding.json'),policies:s.policies,virtual_now,request_id});
     const early=await load('2025-06-01T00:00:00Z','history-early');
@@ -170,10 +171,9 @@ test('the 2025-2026 delivery dataset loads through env.load_seed and is queryabl
   try {
     const infra=await connect('infra'),agent=await connect('agent');
     const baseline=(await infra.call('env.snapshot'));
-    const bundle={dataset:require('../datasets/history/dataset.json'),catalog:require('../datasets/history/assets.catalog.json'),
-      blobs:baseline.snapshot.resources.bundle.blobs};
-    const loaded=await infra.call('env.load_seed',{expected_version:baseline.version,data:seed,bundle,
-      binding:require('../datasets/history/binding.json'),policies:baseline.snapshot.policies,request_id:'history-load'});
+    const args=require('../scripts/history-bundle.cjs').loadSeedArgs();
+    const loaded=await infra.call('env.load_seed',{...args,expected_version:baseline.version,
+      policies:baseline.snapshot.policies,request_id:'history-load'});
     assert.equal(loaded.status,'ready');
     assert.equal(loaded.loaded,seed.projects.length);
     const after=await infra.call('env.snapshot');
@@ -184,7 +184,18 @@ test('the 2025-2026 delivery dataset loads through env.load_seed and is queryabl
     assert.equal(items.filter(x=>x.visibility==='public').length,seed.projects.filter(x=>x.visibility==='public').length);
     assert.equal((await agent.call('cutroom.projects.get',{id:'ep-2025-10b'})).item.visibility,'public');
     assert.equal((await agent.call('cutroom.projects.audit_clearance',{id:'ep-2025-10b'})).blockers[0].code,'missing_guest_release');
-    assert.equal((await agent.request('resources/list')).result.resources.length,24);
+    const catalog=args.bundle.catalog.assets;
+    assert.equal((await agent.request('resources/list')).result.resources.length,catalog.length);
+    const ab=(await agent.call('cutroom.projects.get',{id:'ep-2025-09a'})).item;
+    const cut=ab.cuts.find(c=>c.id===ab.active_cut);
+    assert.deepEqual(cut.results.map(r=>r.asset_id).sort(),cut.thumbnails.slice().sort());
+    assert.equal(ab.resource_uris.length,2);
+    for(const uri of ab.resource_uris){
+      const img=(await agent.request('resources/read',{uri})).result.contents[0];
+      const asset=catalog.find(a=>uri.endsWith('/'+a.asset_id));
+      assert.equal(img.mimeType,'image/png');
+      assert.equal(crypto.createHash('sha256').update(Buffer.from(img.blob,'base64')).digest('hex'),asset.integrity.sha256);
+    }
     const due='2026-11-27T18:00:00Z';
     assert.equal((await infra.call('env.advance_time',{virtual_now:due,expected_version:after.version,request_id:'history-advance'})).status,'committed');
     assert.equal((await agent.call('cutroom.projects.get',{id:'ep-2026-11b'})).item.visibility,'public');

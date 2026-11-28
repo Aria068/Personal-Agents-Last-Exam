@@ -32,8 +32,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 7895,
-        "sha256": "253ee6e41917e9c15807996318462f19d9d046275b8e0705952e7b94d363ff44"
+        "bytes": 10453,
+        "sha256": "0f65cacc1156d613ef83b2e19d63ef991a88f28613e86bddac28b9d5000fb8fd"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -49,7 +49,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate A for \"Laptop battery-life review\": laptop with a battery meter on a desk, title text \"14 HOURS\", duration badge"
       },
       "media": {
         "image": {
@@ -87,8 +87,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8891,
-        "sha256": "5021d1e21bdce67d2addfc9422aaba16de3c77b667bbbda5f885385a7dc19b29"
+        "bytes": 11709,
+        "sha256": "95e6d2a29d128627daf7e727491890da13f5b053c2533c4288d09062ad6215bf"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -104,7 +104,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate B for \"Laptop battery-life review\": laptop with a battery meter on a desk, title text \"14 HOURS\", duration badge"
       },
       "media": {
         "image": {
@@ -142,8 +142,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 9146,
-        "sha256": "6c895c12d15b76a8366fc46c37ef6e2f9da66286dd12ea0fe68b5b18afafd906"
+        "bytes": 9722,
+        "sha256": "3abc2b50b1f9c13f6a46ea593fd0b6703aa01db1a18d043c70391bc7cf84b672"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -159,7 +159,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate C for \"Laptop battery-life review\": laptop with a battery meter on a desk, title text \"14 HOURS\", duration badge"
       },
       "media": {
         "image": {
@@ -197,8 +197,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 11049,
-        "sha256": "d952eaf2319eb94908c324fc0c899134b276cd0110ce753996bd4160e16d8e92"
+        "bytes": 11752,
+        "sha256": "84109b6bca9185b23ef476243840fdaba6a0babb69b0de6646bd15d41f15f024"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -214,7 +214,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Review keyframe"
+        "alt_text": "Review keyframe from \"Laptop battery-life review\". Frame at 08:45: laptop on a desk with an email inbox open on screen, burned-in review timecode"
       },
       "media": {
         "image": {
@@ -252,8 +252,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8124,
-        "sha256": "bf90f934b7f75b1a5c4407acce84e475f60ac6ebe9a327f1f1d5e08c6b6f79ff"
+        "bytes": 14263,
+        "sha256": "ce45d95c568380d85c1a3a5b3082694ffd09ce11724c1f698ddee0ae94894b92"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -269,7 +269,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate A for \"Color grading walkthrough\": colour wheels beside a split-screen monitor, title text \"GRADE IN 10 MIN\", duration badge"
       },
       "media": {
         "image": {
@@ -307,8 +307,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8260,
-        "sha256": "39f2a7fc9509688247b671f8d56b20077bb2d0b80b9050b6755889422866ac21"
+        "bytes": 14816,
+        "sha256": "72b687a1aae01cc3c9f0a4c1fd91e1d4a68d5f5f17eb4103e629400bcfaa86b7"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -324,7 +324,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate B for \"Color grading walkthrough\": colour wheels beside a split-screen monitor, title text \"GRADE IN 10 MIN\", duration badge"
       },
       "media": {
         "image": {
@@ -362,8 +362,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8548,
-        "sha256": "c38209d1a517f97446fc4c675f6317bf74a7e9718ee85d26d61ba6ea3ffb9b67"
+        "bytes": 13618,
+        "sha256": "b68ea5ea984bb0938913dd7e0289cb6515873994a8bffbc7585433d3cb658bd8"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -379,7 +379,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate C for \"Color grading walkthrough\": colour wheels beside a split-screen monitor, title text \"GRADE IN 10 MIN\", duration badge"
       },
       "media": {
         "image": {
@@ -417,8 +417,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8728,
-        "sha256": "2ba1ee4f11b14ad9e89c671c4ea07d5b706a6b6cb3374b01d2741308972e456d"
+        "bytes": 7357,
+        "sha256": "9f9f8cf7621d0dba6cbf9e960c52b49b136a9dcae7e68638c486a714b4fc33c6"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -434,7 +434,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Review keyframe"
+        "alt_text": "Review keyframe from \"Color grading walkthrough\". Frame at 03:20: presenter on the B-camera in front of a grey backdrop, burned-in review timecode"
       },
       "media": {
         "image": {
@@ -472,8 +472,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 6824,
-        "sha256": "6d1425b2c7e27caf922a099b6b752ecf4e05edccbdc27cc1aa6f28524b0d91dc"
+        "bytes": 12232,
+        "sha256": "5c1e5ae51a653d8083be286b3da746a202db707b7f7b08205dd3845dede9bf5e"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -489,7 +489,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate A for \"Packing a field kit\": backpack, camera and tripod, title text \"PACK LIGHT\", duration badge"
       },
       "media": {
         "image": {
@@ -527,8 +527,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 6822,
-        "sha256": "9a1c4a78d2a3ad36b23bf7d6ac2c1e6304b985fb7e2a02905c7b04009ae0302c"
+        "bytes": 14713,
+        "sha256": "5b1b6224effaaccdc9c9f5f3167919b532a434b1733c9d3054d1a88f2f659441"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -544,7 +544,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate B for \"Packing a field kit\": backpack, camera and tripod, title text \"PACK LIGHT\", duration badge"
       },
       "media": {
         "image": {
@@ -582,8 +582,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 7071,
-        "sha256": "8839b543a23a4533639e40d03b4154e3658c5329583ae643cbdda578a9737657"
+        "bytes": 14953,
+        "sha256": "e6c927b84915fff5a46a7a4547663e1aada8fde0ccb6ec109096a2f08126b01a"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -599,7 +599,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate C for \"Packing a field kit\": backpack, camera and tripod, title text \"PACK LIGHT\", duration badge"
       },
       "media": {
         "image": {
@@ -637,8 +637,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 7227,
-        "sha256": "bf825cfad20cf7447d3f002f1f949c1c22c6d43d56e34ac30d910f5dc4865769"
+        "bytes": 8984,
+        "sha256": "2990cd092fcfccd8e1a1d4ab79ddbe6781d0b35a6c53b1376931310eb58d2d0d"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -654,7 +654,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Review keyframe"
+        "alt_text": "Review keyframe from \"Packing a field kit\". Frame at 01:48: overhead flat-lay of a backpack, camera, folded tripod and batteries, burned-in review timecode"
       },
       "media": {
         "image": {
@@ -692,8 +692,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 7490,
-        "sha256": "d7997523de0d232d5385514e643f14336a387ce059dd30b3221dc40d0a53a23e"
+        "bytes": 14203,
+        "sha256": "142f0a20d8b1e407fb193b2944f82e4f33ea62e5c01c42c7eb620c2625568425"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -709,7 +709,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate A for \"Studio lighting on a budget\": softbox lighting a presenter, title text \"$50 STUDIO LIGHT\", duration badge"
       },
       "media": {
         "image": {
@@ -747,8 +747,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 7743,
-        "sha256": "b7fdec88f86adcedc2ba199da54ac2d5d23d495f7219aa41f296eebfff4f56f4"
+        "bytes": 15075,
+        "sha256": "88e003e4eebc24bca605fbce6acb4072633ac03f40cdd473ea21fa5d9da837b7"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -764,7 +764,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate B for \"Studio lighting on a budget\": softbox lighting a presenter, title text \"$50 STUDIO LIGHT\", duration badge"
       },
       "media": {
         "image": {
@@ -802,8 +802,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 7974,
-        "sha256": "58bf1b8b2848bf14d18530322b0b91f9e3319b5094a9012736f0838c31c37e2e"
+        "bytes": 14652,
+        "sha256": "c386c57fd18c26fe627a120f64f79c727af1ea1a94245f3fb841087fb6695c45"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -819,7 +819,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate C for \"Studio lighting on a budget\": softbox lighting a presenter, title text \"$50 STUDIO LIGHT\", duration badge"
       },
       "media": {
         "image": {
@@ -857,8 +857,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8155,
-        "sha256": "dee165d8d783b5e0ea6af9ac3a08f06999618243e59365e68a5b0d22bd19501a"
+        "bytes": 8316,
+        "sha256": "16d3b0a7060d56d61c893e05c8118e1c84c559da7458ac7189560d6770867556"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -874,7 +874,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Review keyframe"
+        "alt_text": "Review keyframe from \"Studio lighting on a budget\". Frame at 05:02: presenter in glasses with a softbox in the background, burned-in review timecode"
       },
       "media": {
         "image": {
@@ -912,8 +912,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8168,
-        "sha256": "7a4076039f986f7dc12ed7b25f1da44eac00d279aff8f1d5cae2c9e162a11f5f"
+        "bytes": 13958,
+        "sha256": "3feb1ff0770b6a2e8974eb7509e4e5a0b67ec87b8fe798bb73afdd9777b99953"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -929,7 +929,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate A for \"Desktop audio setup\": boom microphone, headphones and waveform monitor, title text \"DESK AUDIO FIX\", duration badge"
       },
       "media": {
         "image": {
@@ -967,8 +967,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8296,
-        "sha256": "e8a162ef9cbd319adef0e21339ff01364e988fa7380771d2e240a57f950da2e3"
+        "bytes": 12658,
+        "sha256": "7e27c8becf8d5ee9ac3013097b5097c6140cf9d547fae2380b233f24401ca27b"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -984,7 +984,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate B for \"Desktop audio setup\": boom microphone, headphones and waveform monitor, title text \"DESK AUDIO FIX\", duration badge"
       },
       "media": {
         "image": {
@@ -1022,8 +1022,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8492,
-        "sha256": "8db7cdaa22c307238482f341728aab9cc02eaa588302ee8f9348fbb185642865"
+        "bytes": 13247,
+        "sha256": "30635f71103fdf2bc6907209bc2743897e54b49638712b1e501c455205eecb81"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -1039,7 +1039,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate C for \"Desktop audio setup\": boom microphone, headphones and waveform monitor, title text \"DESK AUDIO FIX\", duration badge"
       },
       "media": {
         "image": {
@@ -1077,8 +1077,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8671,
-        "sha256": "612c4d4e7f7693a18ca64ec9b21d732735c83e0dd7ca2718aa8e27d2d43bf2e9"
+        "bytes": 10333,
+        "sha256": "fe432aa109c8232c01f9c3a53f793045d59864becc8b143d42f10eb0d4d5f720"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -1094,7 +1094,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Review keyframe"
+        "alt_text": "Review keyframe from \"Desktop audio setup\". Frame at 02:41: boom microphone and headphones on a desk with an on-screen level meter, burned-in review timecode"
       },
       "media": {
         "image": {
@@ -1132,8 +1132,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 7741,
-        "sha256": "a42b78b1d95cbf1ee571cc02d15560f22c52f9e5467d66a17d5e4328a9d5b7c0"
+        "bytes": 9234,
+        "sha256": "ae846cdd4419de1a681947995f8698d808a4cb45c744a8bbd637fdf72b13c272"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -1149,7 +1149,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate A for \"A week of commute edits\": train window with a laptop on the table, title text \"EDIT ON A TRAIN\", duration badge"
       },
       "media": {
         "image": {
@@ -1187,8 +1187,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8326,
-        "sha256": "75089c4302f5cd680527b156864594fed52ef3ae2b8bef8543fa84816885dff8"
+        "bytes": 7686,
+        "sha256": "15dfb5baf61276b1e82fa20cb6923b03ae5c435d677b06bdef414e6c165696be"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -1204,7 +1204,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate B for \"A week of commute edits\": train window with a laptop on the table, title text \"EDIT ON A TRAIN\", duration badge"
       },
       "media": {
         "image": {
@@ -1242,8 +1242,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8508,
-        "sha256": "927e26bdd19e5aff5232d4af9b02b291f4f908609ccc9b10af75b4b8f360f2f9"
+        "bytes": 10355,
+        "sha256": "cb5cb1b67e73bb897bbfe1225459aa5a3c1fd2dc22bee6b53066cbf231d1b017"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -1259,7 +1259,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Thumbnail candidate"
+        "alt_text": "Thumbnail candidate C for \"A week of commute edits\": train window with a laptop on the table, title text \"EDIT ON A TRAIN\", duration badge"
       },
       "media": {
         "image": {
@@ -1297,8 +1297,8 @@
         "packaging": "bundled"
       },
       "integrity": {
-        "bytes": 8689,
-        "sha256": "8a0bdd80fba66468a21ff4acbd34b86d39ec291c5f6a422dd6a2ae2fc16cf8c0"
+        "bytes": 7997,
+        "sha256": "9fb5237380203e6f578c1462c38802d28c4245ffed7f550c1f3c4c0a64c23abc"
       },
       "provenance": {
         "dataset_id": "cutroom-synthetic",
@@ -1314,7 +1314,7 @@
         "rule": "parent_object"
       },
       "presentation": {
-        "alt_text": "Review keyframe"
+        "alt_text": "Review keyframe from \"A week of commute edits\". Frame at 06:17: train window and a laptop on the table, burned-in review timecode"
       },
       "media": {
         "image": {

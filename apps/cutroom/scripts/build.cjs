@@ -90,20 +90,42 @@ for (let i=0;i<topics.length;i++) for(const kind of ['b_roll','transcript']){
 }
 const titles=['Laptop battery-life review','Color grading walkthrough','Packing a field kit','Studio lighting on a budget','Desktop audio setup','A week of commute edits'];
 const makeNote=(id,timecode,text,at,resolved_at=null)=>({id,timecode,text,at,resolved_at});
+// Resolved notes for ep15..ep19; the keyframe of each project shows the moment of the first one.
+const topicNotes=[
+ [['skin','03:20','Skin tones go green on the B-cam shot after the LUT.'],['open','00:12','Cold open lingers on the ungraded clip; cut to the reveal sooner.'],['vo','05:48','Voice-over is quieter than the screen recording audio.']],
+ [['overhead','01:48','Packing overhead is soft; the tripod leg locks are out of focus.'],['weight','04:05','Weight graphic says 6.8 kg but the scale shot reads 7.2 kg.'],['endcard','09:30','End card links to last year\'s kit video.']],
+ [['glasses','05:02','Softbox reflection shows in the presenter\'s glasses; tilt the key light.'],['price','02:15','Clamp light price lower-third is missing the currency.'],['flicker','07:40','LED flicker visible at 1/100 shutter in the second demo.']],
+ [['meter','02:41','Level meter graphic hits red at the peak; redraw it at -6 dBFS.'],['hum','04:58','Ground-loop hum under the interface demo.'],['arm','08:12','Boom arm creak is audible when it swings into frame.']],
+ [['glare','06:17','Window glare hides the timeline on the laptop screen; use the other take.'],['shake','01:30','Handheld shake on the platform shot; stabilise or replace it.'],['wifi','10:05','The train Wi-Fi speed claim needs an on-screen source.']],
+];
+const altTitles=['14 HOURS','GRADE IN 10 MIN','PACK LIGHT','$50 STUDIO LIGHT','DESK AUDIO FIX','EDIT ON A TRAIN'];
+const keyframeAlt=['Frame at 08:45: laptop on a desk with an email inbox open on screen',
+ 'Frame at 03:20: presenter on the B-camera in front of a grey backdrop',
+ 'Frame at 01:48: overhead flat-lay of a backpack, camera, folded tripod and batteries',
+ 'Frame at 05:02: presenter in glasses with a softbox in the background',
+ 'Frame at 02:41: boom microphone and headphones on a desk with an on-screen level meter',
+ 'Frame at 06:17: train window and a laptop on the table'];
+const sceneAlt=['laptop with a battery meter on a desk','colour wheels beside a split-screen monitor','backpack, camera and tripod',
+ 'softbox lighting a presenter','boom microphone, headphones and waveform monitor','train window with a laptop on the table'];
+const descriptions=['Sponsored review of a 14-hour ultrabook: battery rundown, screen recording of the benchmark, and a guest segment.',
+ 'Sponsored walkthrough grading A-cam and B-cam footage to match in ten minutes with a LUT and scopes.',
+ 'Sponsored packing guide for a one-day field shoot: bag, camera, tripod and power, weighed on camera.',
+ 'Sponsored budget lighting build: one softbox, a clamp light and practicals for under $50.',
+ 'Sponsored desk audio fix: boom arm, interface gain staging and killing a ground-loop hum.',
+ 'Sponsored week of editing on the commuter train: laptop, power and working around window glare.'];
+const order=(a,b)=>a.timecode<b.timecode?-1:a.timecode>b.timecode?1:0;
 const projects=titles.map((title,i)=>{
  const id=`ep${14+i}`,at=`2026-${String(i+3).padStart(2,'0')}-13T18:00:00Z`;
  const thumbnails=i===0?['thumb-a','thumb-b','thumb-c']:['a','b','c'].map(s=>`${id}-thumb-${s}`);
  const keyframes=[i===0?'keyframe-0845':`${id}-keyframe`];
  const notes=i===0?[makeNote('benchmark','04:12','Wrong benchmark graphic.',at),makeNote('screen','08:45','Review the screen content.',at),
-   makeNote('intro','00:11','Tighten the intro.',at,at)]:[
-   makeNote('intro','00:12',`Check opening for ${title.toLowerCase()}.`,at,at),
-   makeNote('audio','02:41','Match dialogue levels between takes.',at,at),
-   makeNote('end','06:17','Confirm the end card.',at,at)];
+   makeNote('intro','00:11','Tighten the intro.',at,at)]:
+   topicNotes[i-1].map(([id,tc,t])=>makeNote(id,tc,t,at,at)).sort(order);
  const active_cut=i===0?'v3':'v1';
  const cuts=[{id:active_cut,notes,thumbnails,keyframes,active_thumbnail:null,
    results:[{asset_id:thumbnails[0],ctr:.035+i*.003,retention:.47+i*.02,at}]}];
  if(i===0) cuts.unshift({id:'v2',notes:[],thumbnails:[],keyframes:[],active_thumbnail:null,results:[]});
- return {id,title,description:'Synthetic production review project.',sponsored:true,visibility:'private',published_at:null,schedule:null,
+ return {id,title,description:descriptions[i],sponsored:true,visibility:'private',published_at:null,schedule:null,
    release_blockers:[],track_id:i===0?'bgm-lofi-07':i===1?'bgm-synth-11':'bgm-synth-12',
    active_cut,cuts,guest_releases:i===0?[{id:'guest-ep14',history:[{at,status:'signed',reason:'Signed in studio intake.'}]}]:[],overrides:[]};
 });
@@ -114,7 +136,9 @@ const assets=projects.flatMap(p=>p.cuts.flatMap(c=>[...c.thumbnails,...c.keyfram
   availability:{status:'ready'},storage:{adapter:'storage.file',path:file,packaging:'bundled'},
   integrity:{bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex')},
   provenance:{dataset_id:'cutroom-synthetic',source_ids:['synthetic']},publication:'public',
-  access:{audience:['agent'],rule:'parent_object'},presentation:{alt_text:c.thumbnails.includes(asset_id)?'Thumbnail candidate':'Review keyframe'},
+  access:{audience:['agent'],rule:'parent_object'},presentation:{alt_text:c.thumbnails.includes(asset_id)
+   ?`Thumbnail candidate ${asset_id.slice(-1).toUpperCase()} for "${p.title}": ${sceneAlt[projects.indexOf(p)]}, title text "${altTitles[projects.indexOf(p)]}", duration badge`
+   :`Review keyframe from "${p.title}". ${keyframeAlt[projects.indexOf(p)]}, burned-in review timecode`},
   media:{image:{width:bytes.readUInt32BE(16),height:bytes.readUInt32BE(20)}},extensions:[]};
 })));
 require('node:assert/strict').ok(assets.length===24&&assets.reduce((a,x)=>a+x.integrity.bytes,0)<=520*1024);
