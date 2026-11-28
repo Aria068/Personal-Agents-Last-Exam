@@ -16,6 +16,8 @@ const pick=a=>a[Math.floor(rnd()*a.length)];
 const iso=(y,m,d,h=17,min=0)=>new Date(Date.UTC(y,m-1,d,h,min)).toISOString().replace('.000Z','Z');
 const plus=(at,days,h)=>{const d=new Date(at);d.setUTCDate(d.getUTCDate()+days);if(h!==undefined)d.setUTCHours(h,0,0);return d.toISOString().replace('.000Z','Z');};
 const before=(a,b)=>Date.parse(a)<Date.parse(b);
+// Earliest clock the seed can be loaded at: its latest stored past fact.
+const minimumClock=data=>require('../plugin.cjs').pastFacts(data).map(x=>x.at).sort((a,b)=>Date.parse(a)-Date.parse(b)).at(-1);
 
 // Licensed music signed and expiring across the window. History entries record
 // the signing ("active") and any revocation; expiry is inclusive at expires_at.
@@ -115,7 +117,9 @@ const source={source_id:'synthetic',kind:'synthetic',
  description:'Procedurally generated studio history (2025-01..2026-12) plus the authored CutRoom evaluation fixtures. No real people, channels or external records.',
  uri:null,license:'MIT',usage:'permitted',collection:null,
  generation:{method:'procedural',tool:'apps/cutroom/scripts/build-history.cjs',tool_version:'1.0.0',seed:SEED,
-  parameters:{window_start:'2025-01-01',window_end:'2026-12-31',timezone:core.timezone,clock:CLOCK,cadence:'two episodes per month (5th and 19th)'}}};
+  parameters:{window_start:'2025-01-01',window_end:'2026-12-31',timezone:core.timezone,clock:CLOCK,cadence:'two episodes per month (5th and 19th)',
+   load_clock:{default_virtual_now:CLOCK,minimum_virtual_now:minimumClock(seed),
+    rule:'env.load_seed rejects (invalid_seed) a virtual_now earlier than any stored past fact (published_at, note at/resolved_at, A/B result at, guest and license history, override at). Schedules and license expiries are plans and may point forward.'}}}};
 const dataset={schema_version:'pale.dataset.v1',dataset_id:DATASET_ID,version:'1.0.0',
  description:'CutRoom delivery evaluation dataset covering 2025-01-01 through 2026-12-31. Fully synthetic; see evidence/coverage.md.',
  record_source_ids:['synthetic'],sources:[source],transformations:[],

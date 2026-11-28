@@ -14,7 +14,7 @@ const call=(at,op,args={})=>app.handleTool({virtual_now:at,binding,run_id:'histo
 const project=(at,id)=>call(at,'projects.get',{id}).item;
 
 test('delivery dataset is a valid seed that covers every month of 2025-2026',()=>{
-  app.validateSeed({binding},seed);
+  app.validateSeed({virtual_now:clock,binding},seed);
   const r=coverage(seed,{clock});
   assert.deepEqual(r.window,['2025-01-01','2026-12-31']);
   assert.equal(r.outside_window,0);assert.equal(r.invalid,0);
@@ -39,6 +39,20 @@ test('no stored past fact is dated after the clock; only schedules and expiries 
   const late=events(seed).filter(e=>Date.parse(e.at)>Date.parse(clock));
   assert.ok(late.length>0);
   assert.deepEqual([...new Set(late.map(e=>e.field))].sort(),['expires_at','schedule.at']);
+});
+
+test('the history dataset cannot be loaded at a clock earlier than its minimum',()=>{
+  const rule=require('../datasets/history/dataset.json').sources[0].generation.parameters.load_clock;
+  const latest=app.pastFacts(seed).map(x=>x.at).sort((a,b)=>Date.parse(a)-Date.parse(b)).at(-1);
+  assert.equal(rule.minimum_virtual_now,latest);
+  assert.equal(rule.default_virtual_now,clock);
+  assert.ok(Date.parse(latest)<=Date.parse(clock));
+  const second=new Date(Date.parse(latest)-1000).toISOString().replace('.000Z','Z');
+  for(const early of ['2025-06-01T00:00:00Z',second])
+    assert.throws(()=>app.validateSeed({virtual_now:early,binding},seed),{code:'invalid_seed',message:/dated after the clock/});
+  app.validateSeed({virtual_now:latest,binding},seed);
+  app.validateSeed({virtual_now:clock,binding},seed);
+  app.validateSeed({virtual_now:'2026-12-31T23:59:59Z',binding},seed);
 });
 
 test('every historical release was cleared at its own release time unless it carries an override',()=>{

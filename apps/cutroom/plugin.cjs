@@ -144,7 +144,28 @@ function applyEvent(ctx,data,e){
   } else fail('invalid_event','Unsupported event.');
   return data;
 }
+// Stored facts that must already have happened at the clock. Schedules,
+// license expiries and an override's intended schedule are plans and may
+// point forward; everything here is history.
+function pastFacts(data){
+  const rows=[],add=(path,at)=>{if(at)rows.push({path,at});};
+  for(const p of data.projects){
+    add(`${p.id}.published_at`,p.published_at);
+    for(const c of p.cuts){
+      for(const n of c.notes){add(`${p.id}/${c.id}/${n.id}.at`,n.at);add(`${p.id}/${c.id}/${n.id}.resolved_at`,n.resolved_at);}
+      for(const r of c.results)add(`${p.id}/${c.id}/results/${r.asset_id}.at`,r.at);
+    }
+    for(const g of p.guest_releases)for(const h of g.history)add(`${p.id}/${g.id}.history.${h.status}`,h.at);
+    for(const o of p.overrides)add(`${p.id}.overrides.at`,o.at);
+  }
+  for(const t of data.library)for(const h of t.history)add(`${t.id}.history.${h.status}`,h.at);
+  return rows;
+}
 function validateSeed(ctx,data){
+  const now=time(ctx.virtual_now);
+  if(Number.isNaN(now))fail('invalid_seed','A virtual clock is required to validate CutRoom history.');
+  const late=pastFacts(data).filter(x=>time(x.at)>now);
+  if(late.length)fail('invalid_seed',`${late.length} stored record(s) are dated after the clock ${ctx.virtual_now}, e.g. ${late[0].path} ${late[0].at}. Load this data with a later virtual_now.`);
   if(!ctx.binding.accounts.some(a=>a.app_id==='cutroom'&&a.account_id===data.account_id&&a.owner_person_id===data.owner_person_id))
     fail('invalid_seed','Studio account is not bound.');
   const unique=rows=>{if(new Set(rows.map(x=>x.id)).size!==rows.length)fail('invalid_seed','Duplicate IDs.');};
@@ -161,4 +182,4 @@ function validateSeed(ctx,data){
     }
   }
 }
-module.exports={validateSeed,handleTool,applyEvent,records:d=>d.projects,objects:d=>d.projects.map(p=>p.id),references:()=>[],assetReferences};
+module.exports={validateSeed,pastFacts,handleTool,applyEvent,records:d=>d.projects,objects:d=>d.projects.map(p=>p.id),references:()=>[],assetReferences};

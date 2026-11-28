@@ -25,7 +25,12 @@
           "window_end": "2026-12-31",
           "timezone": "America/Los_Angeles",
           "clock": "2026-11-19T18:00:00Z",
-          "cadence": "two episodes per month (5th and 19th)"
+          "cadence": "two episodes per month (5th and 19th)",
+          "load_clock": {
+            "default_virtual_now": "2026-11-19T18:00:00Z",
+            "minimum_virtual_now": "2026-11-17T20:00:00Z",
+            "rule": "env.load_seed rejects (invalid_seed) a virtual_now earlier than any stored past fact (published_at, note at/resolved_at, A/B result at, guest and license history, override at). Schedules and license expiries are plans and may point forward."
+          }
         }
       }
     }
